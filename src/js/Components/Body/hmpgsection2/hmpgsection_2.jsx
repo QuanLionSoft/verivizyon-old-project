@@ -1,5 +1,5 @@
-import React from 'react';
-import './section_2_hmpg.css';
+import  'react';
+import '../../../../css/Components/Body/hmpgsection2/section_2_hmpg.css';
 
 const Hmpgsection2 = () => {
 
@@ -9,9 +9,9 @@ const Hmpgsection2 = () => {
                 <div className="row justify-content-center text-center">
                     <div className="col-lg-8">
                         <h2 className="fs-sm-24"><span
-                            className="font-w-4 d-block">Daha görünür olmak için </span> Dijital dünyanın çalışma
-                            prensiplerini bizimle keşfedin</h2>
-                        <p className="lead mb-0 fs-18 fs-sm-14">Dijital rekabet sandığınız kadar karmaşık değil. </p>
+                            className="font-w-4 d-block">Daha gÃ¶rÃ¼nÃ¼r olmak iÃ§in </span> Dijital dÃ¼nyanÄ±n Ã§alÄ±ÅŸma
+                            prensiplerini bizimle keÅŸfedin</h2>
+                        <p className="lead mb-0 fs-18 fs-sm-14">Dijital rekabet sandÄ±ÄŸÄ±nÄ±z kadar karmaÅŸÄ±k deÄŸil. </p>
                     </div>
                 </div>
             </div>

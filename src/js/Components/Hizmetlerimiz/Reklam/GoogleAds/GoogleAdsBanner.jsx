@@ -1,7 +1,7 @@
-import React from 'react';
+import  'react';
 import Homepage from "../../../../Pages/Homepage";
 import {Link} from "react-router-dom";
-import MainReklam from "../../../../Pages/hizmetlerimiz/Reklam/MainReklam";
+import MainReklam from "../../../../Pages/hizmetlerimiz/Reklam/MainReklam.jsx";
 
 const GoogleAdsBanner = () => {
     return (

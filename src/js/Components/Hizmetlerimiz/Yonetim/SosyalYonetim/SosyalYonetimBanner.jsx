@@ -1,7 +1,7 @@
-import React from 'react';
+import 'react';
 import Homepage from "../../../../Pages/Homepage";
 import {Link} from "react-router-dom";
-import MainYonetim from "../../../../Pages/hizmetlerimiz/Yonetim/MainYonetim";
+import MainYonetim from "../../../../Pages/hizmetlerimiz/Yonetim/MainYonetim.jsx";
 
 const SosyalYonetimBanner = () => {
     return (
@@ -15,7 +15,7 @@ const SosyalYonetimBanner = () => {
                                 <li className="breadcrumb-item"><Link className="text-secondary"
                                                                       to="/" element={<Homepage/>}>Anasayfa</Link></li>
                                 <li className="breadcrumb-item">
-                                    <Link className="text-secondary" to="/Yonetim" element={<MainYonetim/>}>Yönetim
+                                    <Link className="text-secondary" to="/yonetim" element={<MainYonetim/>}>Yönetim
                                         Hizmetleri</Link>
                                 </li>
                                 <li className="breadcrumb-item active text-primary" aria-current="page">Sosyal Medya

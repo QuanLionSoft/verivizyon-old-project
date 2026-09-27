@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 import Googleads from "../../../../Pages/hizmetlerimiz/Reklam/reklam-down-page/Googleads";
 import {Link} from "react-router-dom";
 import Sosyalmedya from "../../../../Pages/hizmetlerimiz/Reklam/reklam-down-page/Sosyalmedya";
@@ -14,7 +14,7 @@ const ReklamSection = () => {
                         </h2>
                     </div>
                     <div className="col-md-4">
-                        <Link to="googleAds" className="hizmet_1" element={Googleads}>
+                        <Link to="/reklam/googleads" className="hizmet_1" element={Googleads}>
                             <div className="card hizmet_card">
                                 <div className="hizmet_img">
                                     <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/google-reklam.svg?updatedAt=1714930059067" className="img-fluid" alt=""/>
@@ -33,7 +33,7 @@ const ReklamSection = () => {
                         </Link>
                     </div>
                     <div className="col-md-4">
-                        <Link to="Sosyalmedyareklam" element={<Sosyalmedya/>} className="hizmet_2">
+                        <Link to="/reklam/sosyalmedya" element={<Sosyalmedya/>} className="hizmet_2">
                             <div className="card hizmet_card">
                                 <div className="hizmet_img">
                                     <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/sosyal-medya-reklamlari.svg?updatedAt=1714930059130" className="img-fluid"
@@ -53,7 +53,7 @@ const ReklamSection = () => {
                         </Link>
                     </div>
                     <div className="col-md-4">
-                        <Link to="Seohizmet"  element={<Seo/>} className="hizmet_3">
+                        <Link to="/reklam/seohizmet"  element={<Seo/>} className="hizmet_3">
                             <div className="card hizmet_card">
                                 <div className="hizmet_img">
                                     <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/seo-hizmeti.svg?updatedAt=1714930059481" className="img-fluid" alt=""/>

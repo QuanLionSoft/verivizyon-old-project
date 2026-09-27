@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 import { IoIosStarOutline } from "react-icons/io";
 const Fikirsection = () => {
     return (

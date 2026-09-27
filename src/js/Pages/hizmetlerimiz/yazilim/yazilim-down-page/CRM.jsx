@@ -3,9 +3,9 @@ import Secondbanner from "../../../../Components/Header/SecondBanner/secondbanne
 import CrmBanner from "../../../../Components/Hizmetlerimiz/Yazilim/CRM/CRMBanner";
 import CrmSection1 from "../../../../Components/Hizmetlerimiz/Yazilim/CRM/CRMSection1";
 import CrmSection2 from "../../../../Components/Hizmetlerimiz/Yazilim/CRM/CRMSection2";
-import Fikirsection from "../../../../Components/Hizmetlerimiz/fikir-section/Fikirsection";
+import Fikirsection from "../../../../Components/Hizmetlerimiz/fikir-section/Fikirsection.jsx";
 import Neleryap from "../../../../Components/Body/neleryap/neleryap";
-import Question from "../../../../Components/according/question";
+import Question from "../../../../Components/according/question.jsx";
 
 import Footer from "../../../../Components/Footer/footer";
 

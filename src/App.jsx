@@ -1,5 +1,5 @@
 import  { useState, useEffect } from "react";
-import './App.css';
+import './css/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./js/Pages/Homepage.jsx";
@@ -8,10 +8,10 @@ import About from "./js/Pages/About.jsx";
 import Contact from "./js/Pages/Contact.jsx";
 import Referation from "./js/Pages/Referation.jsx";
 import Gizlilik from "./js/Pages/Gizlilik.jsx";
-import MainYazilim from "./js/Pages/hizmetlerimiz/yazilim/MainYazilim.js";
-import MainYonetim from "./js/Pages/hizmetlerimiz/Yonetim/MainYonetim.js";
-import MainReklam from "./js/Pages/hizmetlerimiz/Reklam/MainReklam.js";
-import MainTasarim from "./js/Pages/hizmetlerimiz/Tasarim/MainTasarim.js";
+import MainYazilim from "./js/Pages/hizmetlerimiz/yazilim/MainYazilim.jsx";
+import MainYonetim from "./js/Pages/hizmetlerimiz/Yonetim/MainYonetim.jsx";
+import MainReklam from "./js/Pages/hizmetlerimiz/Reklam/MainReklam.jsx";
+import MainTasarim from "./js/Pages/hizmetlerimiz/Tasarim/MainTasarim.jsx";
 import Googleads from "./js/Pages/hizmetlerimiz/Reklam/reklam-down-page/Googleads.jsx";
 import Sosyalmedya from "./js/Pages/hizmetlerimiz/Reklam/reklam-down-page/Sosyalmedya.jsx";
 import Seo from "./js/Pages/hizmetlerimiz/Reklam/reklam-down-page/Seo.jsx";
@@ -25,7 +25,7 @@ import WebYonetim from "./js/Pages/hizmetlerimiz/Yonetim/yonetim-down-page/WebYo
 import Sosyalyonetim from "./js/Pages/hizmetlerimiz/Yonetim/yonetim-down-page/Sosyalyonetim.jsx";
 import Googleyonetim from "./js/Pages/hizmetlerimiz/Yonetim/yonetim-down-page/Googleyonetim.jsx";
 import Teklifalpage from "./js/Pages/teklifalpage.jsx";
-import Preloader from "./js/Components/loader/Preloader.js";
+import Preloader from "./js/Components/loader/Preloader.jsx";
 
 
 function App() {
@@ -48,31 +48,31 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Homepage />} />
-                    <Route path="hakkimizda" element={<About />} />
+                    <Route path="/hakkimizda" element={<About />} />
+                    <Route path="/iletisim" element={<Contact />} />
+                    <Route path="/referanslarimiz" element={<Referation />} />
+                    <Route path="/gizlilik" element={<Gizlilik />} />
+                    <Route path="/teklif-al" element={<Teklifalpage />} />
+
+                    <Route path="/yazilim" element={<MainYazilim />} />
+                    <Route path="/yonetim" element={<MainYonetim />} />
+                    <Route path="/reklam" element={<MainReklam />} />
+                    <Route path="/tasarim" element={<MainTasarim />} />
+
+                    <Route path="/reklam/googleads" element={<Googleads />} />
+                    <Route path="/reklam/sosyalmedya" element={<Sosyalmedya />} />
+                    <Route path="/reklam/seohizmet" element={<Seo />} />
+                    <Route path="/tasarim/webdesign" element={<WebDesign />} />
+                    <Route path="/tasarim/graficdesign" element={<Grafic />} />
+                    <Route path="/tasarim/landingdesign" element={<Landing />} />
+                    <Route path="/yazilim/websoftware" element={<WebSoftware />} />
+                    <Route path="/yazilim/ecommerce" element={<ECommerce />} />
+                    <Route path="/yazilim/crm" element={<Crm />} />
+                    <Route path="/yonetim/sosyalmedya" element={<Sosyalyonetim />} />
+                    <Route path="/yonetim/googlereklam" element={<Googleyonetim />} />
+                    <Route path="/yonetim/websitesyonetim" element={<WebYonetim />} />
+
                     <Route path="*" element={<Errors />} />
-                    <Route path="iletisim" element={<Contact />} />
-                    <Route path="Referanslarimiz" element={<Referation />} />
-                    <Route path="Gizlilik" element={<Gizlilik />} />
-                    <Route path="yazilim" element={<MainYazilim />} />
-                    <Route path="Yonetim" element={<MainYonetim />} />
-                    <Route path="Reklam" element={<MainReklam />} />
-                    <Route path="Tasarim" element={<MainTasarim />} />
-                    <Route path="reklam/googleAds" element={<Googleads />} />
-                    <Route path="reklam/Sosyalmedyareklam" element={<Sosyalmedya />} />
-                    <Route path="reklam/Seohizmet" element={<Seo />} />
-                    <Route path="Seohizmet" element={<Seo />} />
-                    <Route path="Tasarim/Webdesign" element={<WebDesign />} />
-                    <Route path="Webdesign" element={<WebDesign />} />
-                    <Route path="Tasarim/graficdesign" element={<Grafic />} />
-                    <Route path="Tasarim/landingdesign" element={<Landing />} />
-                    <Route path="yazilim/WebSoftware" element={<WebSoftware />} />
-                    <Route path="yazilim/E-commerce" element={<ECommerce />} />
-                    <Route path="E-commerce" element={<ECommerce />} />
-                    <Route path="yazilim/CrmErpSoftware" element={<Crm />} />
-                    <Route path="Yonetim/Sosyalmedyayonetim" element={<Sosyalyonetim />} />
-                    <Route path="Yonetim/Googlereklamyonetim" element={<Googleyonetim />} />
-                    <Route path="Yonetim/WebSiteyonetim" element={<WebYonetim />} />
-                    <Route path="teklif-al" element={<Teklifalpage />} />
                 </Routes>
             </BrowserRouter>
 

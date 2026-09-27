@@ -1,6 +1,6 @@
-import React from 'react';
+import  'react';
 import {Link} from "react-router-dom";
-import MainReklam from "../../../../Pages/hizmetlerimiz/Reklam/MainReklam";
+import MainReklam from "../../../../Pages/hizmetlerimiz/Reklam/MainReklam.jsx";
 import Homepage from "../../../../Pages/Homepage";
 
 const SosyalmedyaBanner = () => {

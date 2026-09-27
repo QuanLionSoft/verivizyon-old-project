@@ -1,7 +1,7 @@
-import React from 'react';
+import  'react';
 import Homepage from "../../../../Pages/Homepage";
 import {Link} from "react-router-dom";
-import MainYazilim from "../../../../Pages/hizmetlerimiz/yazilim/MainYazilim";
+import MainYazilim from "../../../../Pages/hizmetlerimiz/yazilim/MainYazilim.jsx";
 
 const Reklambanner = () => {
     return (

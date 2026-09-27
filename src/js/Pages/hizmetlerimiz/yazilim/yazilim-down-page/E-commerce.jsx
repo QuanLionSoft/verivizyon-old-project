@@ -3,9 +3,9 @@ import Secondbanner from "../../../../Components/Header/SecondBanner/secondbanne
 import ECommerceBanner from "../../../../Components/Hizmetlerimiz/Yazilim/e-commerce/e-commerceBanner";
 import ECommercesection1 from "../../../../Components/Hizmetlerimiz/Yazilim/e-commerce/E-commercesection1";
 import ECommercesection2 from "../../../../Components/Hizmetlerimiz/Yazilim/e-commerce/E-commercesection2";
-import Fikirsection from "../../../../Components/Hizmetlerimiz/fikir-section/Fikirsection";
+import Fikirsection from "../../../../Components/Hizmetlerimiz/fikir-section/Fikirsection.jsx";
 import Neleryap from "../../../../Components/Body/neleryap/neleryap";
-import Question from "../../../../Components/according/question";
+import Question from "../../../../Components/according/question.jsx";
 
 import Footer from "../../../../Components/Footer/footer";
 

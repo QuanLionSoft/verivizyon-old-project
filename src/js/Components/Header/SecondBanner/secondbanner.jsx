@@ -1,6 +1,6 @@
-import React from 'react';
-import './scndbanner.css';
-import './firstbanner.css';
+import 'react';
+import '../../../../css/Components/Header/SecondBanner/scndbanner.css';
+import '../../../../css/Components/Header/SecondBanner/firstbanner.css';
 import veriblue from  '../../../Picture/data/Verivizyon logo.png';
 
 import { CiFacebook } from "react-icons/ci";
@@ -10,10 +10,10 @@ import { BsInstagram } from "react-icons/bs";
 import { TbBrandYoutube } from "react-icons/tb";
 import {Link} from "react-router-dom";
 import Homepage from "../../../Pages/Homepage";
-import MainYazilim from "../../../Pages/hizmetlerimiz/yazilim/MainYazilim";
-import MainTasarim from "../../../Pages/hizmetlerimiz/Tasarim/MainTasarim";
-import MainReklam from "../../../Pages/hizmetlerimiz/Reklam/MainReklam";
-import MainYonetim from "../../../Pages/hizmetlerimiz/Yonetim/MainYonetim";
+import MainYazilim from "../../../Pages/hizmetlerimiz/yazilim/MainYazilim.jsx";
+import MainTasarim from "../../../Pages/hizmetlerimiz/Tasarim/MainTasarim.jsx";
+import MainReklam from "../../../Pages/hizmetlerimiz/Reklam/MainReklam.jsx";
+import MainYonetim from "../../../Pages/hizmetlerimiz/Yonetim/MainYonetim.jsx";
 import About from "../../../Pages/About";
 import Referation from "../../../Pages/Referation";
 import Contact from "../../../Pages/Contact";
@@ -37,7 +37,7 @@ const Secondbanner = () => {
                                         info@verivizyon.com</Link>
                                 </div>
                                 <div className="top_phone top_div mx-2" style={{borderRight:"none"}}>
-                                    <Link to="https://api.whatsapp.com/send?phone=+905058395561&text=Merhaba,&nbsp;hizmetleriniz&nbsp;hakkında&nbsp;bilgi&nbsp;almak&nbsp;istiyorum."
+                                    <Link to="https://api.whatsapp.com/send?phone=+905058395561&text=Merhaba,&nbsp;hizmetleriniz&nbsp;hakkÄ±nda&nbsp;bilgi&nbsp;almak&nbsp;istiyorum."
                                        target="_blank"><FaWhatsapp style={{color:"#285daa",fontSize:16}}  />WhatsApp</Link>
                                 </div>
                             </div>
@@ -71,28 +71,28 @@ const Secondbanner = () => {
                                                                                  data-bs-toggle="dropdown">Hizmetlerimiz</Link>
                                                 <ul className="dropdown-menu">
                                                     <li className="dropdown-submenu"><Link className="dropdown-item"
-                                                                                        to="/yazilim" element={MainYazilim}>Yazılım
+                                                                                        to="/yazilim" element={MainYazilim}>YazÄ±lÄ±m
                                                         Hizmetleri</Link></li>
                                                     <li className="dropdown-submenu"><Link className="dropdown-item"
-                                                                                        to="/tasarim" element={MainTasarim}>Tasarım
+                                                                                        to="/tasarim" element={MainTasarim}>TasarÄ±m
                                                         Hizmetleri</Link></li>
                                                     <li className="dropdown-submenu"><Link className="dropdown-item"
                                                                                         to="/reklam" element={MainReklam}>Reklam
                                                         Hizmetleri</Link></li>
                                                     <li className="dropdown-submenu"><Link className="dropdown-item"
-                                                                                        to="/yonetim" element={MainYonetim} >Yönetim
+                                                                                        to="/yonetim" element={MainYonetim} >YÃ¶netim
                                                         Hizmetleri</Link></li>
                                                 </ul>
                                             </li>
                                             <li className="nav-item"><Link className="nav-link"
-                                                                        to="/hakkimizda" element={About}>Hakkımızda</Link>
+                                                                        to="/hakkimizda" element={About}>HakkÄ±mÄ±zda</Link>
                                             </li>
                                             <li className="nav-item"><Link className="nav-link"
-                                                                        to="/referanslarimiz" element={Referation} >Referanslarımız</Link>
+                                                                        to="/referanslarimiz" element={Referation} >ReferanslarÄ±mÄ±z</Link>
                                             </li>
                                             <li className="nav-item"><Link className="nav-link"
                                                                         to="/iletisim" element={Contact}>Bize
-                                                Ulaşın</Link></li>
+                                                UlaÅŸÄ±n</Link></li>
                                             <li className="nav-item d-md-none d-block">
                                                 <Link to="/teklif-al" element={<Teklifalpage/>} >
                                                 <button className="btn btn-outline-primary basvuruYapBtn"
@@ -108,7 +108,7 @@ const Secondbanner = () => {
                                                                                          to="mailto://info@verivizyon.com">E-Mail<i
                                                             className="las la-envelope fs-28 mr-2"></i></Link></li>
                                                         <li className="nav-item whatsApp"><Link className="nav-link"
-                                                                                             to="https://api.whatsapp.com/send?phone=+905058395561&text=Merhaba,&nbsp;hizmetleriniz&nbsp;hakkında&nbsp;bilgi&nbsp;almak&nbsp;istiyorum."
+                                                                                             to="https://api.whatsapp.com/send?phone=+905058395561&text=Merhaba,&nbsp;hizmetleriniz&nbsp;hakkÄ±nda&nbsp;bilgi&nbsp;almak&nbsp;istiyorum."
                                                                                              target="_blank"><i
                                                             className="lab la-whatsapp fs-28 mr-2"></i>WhatsApp</Link></li>
                                                     </ul>

@@ -1,29 +1,29 @@
-import React from 'react';
-import WebSoftware from "../../../../Pages/hizmetlerimiz/yazilim/yazilim-down-page/WebSoftware";
+import  'react';
+import Sosyalyonetim from "../../../../Pages/hizmetlerimiz/Yonetim/yonetim-down-page/Sosyalyonetim";
 import {Link} from "react-router-dom";
-import ECommerce from "../../../../Pages/hizmetlerimiz/yazilim/yazilim-down-page/E-commerce";
-import Crm from "../../../../Pages/hizmetlerimiz/yazilim/yazilim-down-page/CRM";
+import Googleyonetim from "../../../../Pages/hizmetlerimiz/Yonetim/yonetim-down-page/Googleyonetim";
+import WebYonetim from "../../../../Pages/hizmetlerimiz/Yonetim/yonetim-down-page/WebYonetim";
 
-const MainYazilimSection = () => {
+const MainYonetimSection = () => {
     return (
-        <section className="pt-5 position-relative overflow-hidden">
+        <section className="pt-4 position-relative overflow-hidden">
             <div className="container hizmetler">
                 <div className="row">
                     <div className="col-12">
-                        <h2><span className="text-primary">VeriVizyon</span> iş ortaklığı ile profesyonel Yazılım Hizmetleri
+                        <h2><span className="text-primary">VeriVizyon</span> iş ortaklığı ile profesyonel Yönetim Hizmetleri
                         </h2>
                     </div>
                     <div className="col-md-4">
-                        <Link to="WebSoftware" element={<WebSoftware/>} className="hizmet_1">
+                        <Link to="/yonetim/sosyalmedya" element={<Sosyalyonetim/>} className="hizmet_1">
                             <div className="card hizmet_card">
                                 <div className="hizmet_img">
-                                    <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/yazilim.svg?updatedAt=1714931724703" className="img-fluid" alt=""/>
+                                    <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/sosyal-medya-yonetimi.svg?updatedAt=1714930058411" className="img-fluid" alt=""/>
                                 </div>
                                 <div className="card-title">
-                                    <h3>Web Yazılım Hizmeti</h3>
+                                    <h3>Sosyal Medya Yönetimi</h3>
                                 </div>
                                 <div className="card-body">
-                                    <p>Web Yazılım Hizmeti ile ihtiyacınız olan yazılım desteğine <span
+                                    <p>Sosyal Medya Yönetimi ile ihtiyacınız olan yönetim desteğine <span
                                         className="text-primary">VeriVizyon</span> iş ortaklığı ile sahip olabilirsiniz.</p>
                                 </div>
                                 <div className="card-footer">
@@ -33,16 +33,17 @@ const MainYazilimSection = () => {
                         </Link>
                     </div>
                     <div className="col-md-4">
-                        <Link to="E-commerce"  element={<ECommerce/>} className="hizmet_2">
+                        <Link to="/yonetim/googlereklam" element={<Googleyonetim/>} className="hizmet_2">
                             <div className="card hizmet_card">
                                 <div className="hizmet_img">
-                                    <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/e-ticaret.svg?updatedAt=1714931724542" className="img-fluid" alt=""/>
+                                    <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/google-reklam-yonetimi.svg?updatedAt=1714930059355" className="img-fluid"
+                                         alt=""/>
                                 </div>
                                 <div className="card-title">
-                                    <h3>E-Ticaret Yazılımı</h3>
+                                    <h3>Google Reklam Yönetimi</h3>
                                 </div>
                                 <div className="card-body">
-                                    <p>E-Ticaret Yazılımı ile ihtiyacınız olan yazılım desteğine <span
+                                    <p>Google Reklam Yönetimi ile ihtiyacınız olan yönetim desteğine <span
                                         className="text-primary">VeriVizyon</span> iş ortaklığı ile sahip olabilirsiniz.</p>
                                 </div>
                                 <div className="card-footer">
@@ -52,16 +53,16 @@ const MainYazilimSection = () => {
                         </Link>
                     </div>
                     <div className="col-md-4">
-                        <Link to="CrmErpSoftware" element={<Crm/>} className="hizmet_3">
+                        <Link to="/yonetim/websitesyonetim" element={<WebYonetim/>} className="hizmet_3">
                             <div className="card hizmet_card">
                                 <div className="hizmet_img">
-                                    <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/crm-erp.svg?updatedAt=1714931725188" className="img-fluid" alt=""/>
+                                    <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/web-site-yonetimi.svg?updatedAt=1714930062355" className="img-fluid" alt=""/>
                                 </div>
                                 <div className="card-title">
-                                    <h3>CRM/ERP Sistemleri</h3>
+                                    <h3>Web Site Yönetimi</h3>
                                 </div>
                                 <div className="card-body">
-                                    <p>CRM/ERP Sistemleri ile ihtiyacınız olan yazılım desteğine <span
+                                    <p>Web Site Yönetimi ile ihtiyacınız olan yönetim desteğine <span
                                         className="text-primary">VeriVizyon</span> iş ortaklığı ile sahip olabilirsiniz.</p>
                                 </div>
                                 <div className="card-footer">
@@ -73,8 +74,7 @@ const MainYazilimSection = () => {
                 </div>
             </div>
         </section>
-
-);
+    );
 };
 
-export default MainYazilimSection;
+export default MainYonetimSection;

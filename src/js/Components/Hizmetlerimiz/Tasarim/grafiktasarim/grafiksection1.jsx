@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 import Buttonsection from "../../../button/Buttonsection";
 
 const Grafiksection1 = () => {

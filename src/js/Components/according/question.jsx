@@ -1,5 +1,6 @@
-import React from 'react';
-import './ques.css';
+import 'react';
+import { Link } from 'react-router-dom';
+import '../../../css/Components/according/ques.css';
 
 const Question = () => {
     return (
@@ -32,11 +33,11 @@ const Question = () => {
                                 <strong>Web Site nedir
 
                                 </strong>
-                                diye sorulan bir soruya vereceğimiz cevap: Kurumsal Web
-                                Siteleri, Kişisel Web Siteleri, E-Ticaret Siteleri, Blog, Haber, Forum, Portal Siteleri,
-                                Mobil Uygulamalar gibi birçok alanlar bir çok amacı yerine getirmek amaçlı
-                                kullanılmaktadır. Web yazılımlar her türlü teknoloji alanında yaygın olarak
-                                kullanılmakta ve çözümler sağlamaktadır.
+                                diye sorulan bir soruya vereceÄŸimiz cevap: Kurumsal Web
+                                Siteleri, KiÅŸisel Web Siteleri, E-Ticaret Siteleri, Blog, Haber, Forum, Portal Siteleri,
+                                Mobil Uygulamalar gibi birÃ§ok alanlar bir Ã§ok amacÄ± yerine getirmek amaÃ§lÄ±
+                                kullanÄ±lmaktadÄ±r. Web yazÄ±lÄ±mlar her tÃ¼rlÃ¼ teknoloji alanÄ±nda yaygÄ±n olarak
+                                kullanÄ±lmakta ve Ã§Ã¶zÃ¼mler saÄŸlamaktadÄ±r.
                             </div>
                         </div>
                     </li>
@@ -45,7 +46,7 @@ const Question = () => {
                         <button className="accordion-button btn btn-outline-primary accordion-header position-relative"
                                 id="heading2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2"
                                 aria-expanded="false" aria-controls="collapse2">
-                            Web Site Nasıl Yapılır?
+                            Web Site NasÄ±l YapÄ±lÄ±r?
                         </button>
                         <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="heading2"
                              data-bs-parent="#accordionExample">
@@ -55,22 +56,22 @@ const Question = () => {
                                         Projenin Belirlenmesi.
                                     </li>
                                     <li>
-                                        Kurumsal Kimlik Çalışması
+                                        Kurumsal Kimlik Ã‡alÄ±ÅŸmasÄ±
                                     </li>
                                     <li>
-                                        Grafik Tasarım Çalışması
+                                        Grafik TasarÄ±m Ã‡alÄ±ÅŸmasÄ±
                                     </li>
                                     <li>
-                                        Web Sayfalarının Kodlaması
+                                        Web SayfalarÄ±nÄ±n KodlamasÄ±
                                     </li>
                                     <li>
-                                        İçerik Yönetim Sistemi Entegrasyonu.
+                                        Ä°Ã§erik YÃ¶netim Sistemi Entegrasyonu.
                                     </li>
                                     <li>
-                                        Web Sitesinin Test Süreci.
+                                        Web Sitesinin Test SÃ¼reci.
                                     </li>
                                     <li>
-                                        Web Sitesinin Yayınlanması
+                                        Web Sitesinin YayÄ±nlanmasÄ±
                                     </li>
                                 </ul>
                             </div>
@@ -81,14 +82,14 @@ const Question = () => {
                         <button className="accordion-button btn btn-outline-primary accordion-header position-relative"
                                 id="heading3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3"
                                 aria-expanded="false" aria-controls="collapse3">
-                            Web Site Fiyatları Ne Kadar?
+                            Web Site FiyatlarÄ± Ne Kadar?
                         </button>
                         <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="heading3"
                              data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>Web Site fiyatları projenizin özelliklerine göre farklılıklar gösterir. <strong>Web
-                                    Site fiyatlarımız</strong>ı <a href="https://Verivizyon.com/iletisim">Bize
-                                    Ulaşın</a> formunu doldurarak kolaylıkla öğrenebilirsiniz.</p>
+                                <p>Web Site fiyatlarÄ± projenizin Ã¶zelliklerine gÃ¶re farklÄ±lÄ±klar gÃ¶sterir. <strong>Web
+                                    Site fiyatlarÄ±mÄ±z</strong>Ä± <Link to="/iletisim">Bize
+                                    UlaÅŸÄ±n</Link> formunu doldurarak kolaylÄ±kla Ã¶ÄŸrenebilirsiniz.</p>
                             </div>
                         </div>
                     </li>
@@ -97,13 +98,13 @@ const Question = () => {
                         <button className="accordion-button btn btn-outline-primary accordion-header position-relative"
                                 id="heading4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
                                 aria-expanded="false" aria-controls="collapse4">
-                            Web Site Örnekleri Nelerdir?
+                            Web Site Ã–rnekleri Nelerdir?
                         </button>
                         <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="heading4"
                              data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>Verivizyon olarak yapmış olduğumuz projeleri <a
-                                    href="https://Verivizyon.com/referanslarimiz">Referanslarımız</a> sayfamızdan ziyaret
+                                <p>Verivizyon olarak yapmÄ±ÅŸ olduÄŸumuz projeleri <Link
+                                    to="/referanslarimiz">ReferanslarÄ±mÄ±z</Link> sayfamÄ±zdan ziyaret
                                     edebilir ve <strong>bilgi alabilirsiniz.</strong></p>
                             </div>
                         </div>
@@ -113,60 +114,60 @@ const Question = () => {
                         <button className="accordion-button btn btn-outline-primary accordion-header position-relative"
                                 id="heading5" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5"
                                 aria-expanded="false" aria-controls="collapse5">
-                            Web Site Projelerinde Olması Gereken Özellikler Nelerdir?
+                            Web Site Projelerinde OlmasÄ± Gereken Ã–zellikler Nelerdir?
                         </button>
                         <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5"
                              data-bs-parent="#accordionExample">
                             <div className="accordion-body">
                                 <ul>
                                     <li>
-                                        Responsive(Mobil Uyumlu), Özgün ve Modern Şablon Tasarımı
+                                        Responsive(Mobil Uyumlu), Ã–zgÃ¼n ve Modern Åablon TasarÄ±mÄ±
                                     </li>
                                     <li>
-                                        En basit site için HTML5, CSS3, PHP, JS Yazılım Dili
+                                        En basit site iÃ§in HTML5, CSS3, PHP, JS YazÄ±lÄ±m Dili
                                     </li>
                                     <li>
-                                        Dünya Standartlarında(Web 2.0) Kodlama Yapısı
+                                        DÃ¼nya StandartlarÄ±nda(Web 2.0) Kodlama YapÄ±sÄ±
                                     </li>
                                     <li>
-                                        SEO Uyumlu Kodlama Altyapısı ve Site İçi SEO Entegrasyonu
+                                        SEO Uyumlu Kodlama AltyapÄ±sÄ± ve Site Ä°Ã§i SEO Entegrasyonu
                                     </li>
                                     <li>
-                                        Güçlendirilmiş Güvenlik Altyapısı
+                                        GÃ¼Ã§lendirilmiÅŸ GÃ¼venlik AltyapÄ±sÄ±
                                     </li>
                                     <li>
-                                        Bağımsız Sunucu/Hosting Kurulumu
+                                        BaÄŸÄ±msÄ±z Sunucu/Hosting Kurulumu
                                     </li>
                                     <li>
-                                        Kolay Kullanılabilir ve Geniş Kapsamlı İçerik Yönetim Paneli(CMS)
+                                        Kolay KullanÄ±labilir ve GeniÅŸ KapsamlÄ± Ä°Ã§erik YÃ¶netim Paneli(CMS)
                                     </li>
                                     <li>
-                                        CMS Panel ile Yönetilebilir 100% Dinamik İçerik Altyapısı
+                                        CMS Panel ile YÃ¶netilebilir 100% Dinamik Ä°Ã§erik AltyapÄ±sÄ±
                                     </li>
                                     <li>
-                                        Modern ve Dinamik İçerik Sayfaları
+                                        Modern ve Dinamik Ä°Ã§erik SayfalarÄ±
                                     </li>
                                     <li>
-                                        Google Araçları ve Sosyal Medya Entegrasyonu
+                                        Google AraÃ§larÄ± ve Sosyal Medya Entegrasyonu
                                     </li>
                                     <li>
-                                        Site İçi Metin ve Görsel İçerik Geliştirme Hizmeti
+                                        Site Ä°Ã§i Metin ve GÃ¶rsel Ä°Ã§erik GeliÅŸtirme Hizmeti
                                     </li>
                                     <li>
                                         Google ve Yandex Local Business Optimizasyonu
                                     </li>
                                     <li>
-                                        Web Danışmanlık Hizmeti
+                                        Web DanÄ±ÅŸmanlÄ±k Hizmeti
                                     </li>
                                     <li>
                                         7/24 Teknik Destek
                                     </li>
                                 </ul>
 
-                                <p><strong>Verivizyon</strong> olarak diğer web site firmalarının aksine yaptığımız her web
-                                    site projesinde bu özellikleri standart olarak sunuyoruz ve bu verdiğimiz hizmetler
-                                    ile gurur duyuyoruz. Ayrıca bu özelliklerin her web tasarım projesinde standart
-                                    olması gerektiğini şiddetle savunuyoruz.</p>
+                                <p><strong>Verivizyon</strong> olarak diÄŸer web site firmalarÄ±nÄ±n aksine yaptÄ±ÄŸÄ±mÄ±z her web
+                                    site projesinde bu Ã¶zellikleri standart olarak sunuyoruz ve bu verdiÄŸimiz hizmetler
+                                    ile gurur duyuyoruz. AyrÄ±ca bu Ã¶zelliklerin her web tasarÄ±m projesinde standart
+                                    olmasÄ± gerektiÄŸini ÅŸiddetle savunuyoruz.</p>
                             </div>
                         </div>
                     </li>
@@ -179,51 +180,51 @@ const Question = () => {
                         <button className="accordion-button btn btn-outline-primary accordion-header position-relative"
                                 id="heading7" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7"
                                 aria-expanded="false" aria-controls="collapse7">
-                            Web Site Firması Nasıl Seçilir?
+                            Web Site FirmasÄ± NasÄ±l SeÃ§ilir?
                         </button>
                         <div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7"
                              data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>Günümüzde hemen hemen her türden işletmenin bir web sitesine <strong>sahip olması
-                                    gerekiyor</strong>. Yalnızca fiziksel satış yapan şirketlerin bile kurumsal web
-                                    sitelerinin bulunması <strong>büyük önem taşımaktadır</strong>. Web siteniz
-                                    açıldığında, işletmenizi güzel ve doğru yansıttığından emin olabilmeniz için,
-                                    profesyonel bir web tasarım firması ile çalışmanız gerekir. Web sitenizin birçok
-                                    alandaki performansı, işletmenizin <strong>sanal kariyeri için</strong> büyük önem
-                                    taşımaktadır. Bu yüzden yanlış web tasarım firmasını seçmek gibi bir hata yapmaktan
-                                    kaçınmalısınız.</p>
-                                <p>Güçlü bir sanal varlık geliştirebilmek için, güvenilir, deneyimli ve <strong>profesyonel
-                                    bir şirket</strong> ile çalışmanız gerekecek. İşletmeler bu konuya bazen gerekli
-                                    özeni göstermezler ve sadece büyük görünen, çok ucuz fiyatlara iş yaptığını ileri
-                                    süren şirketlerle çalışırlar, bu da <strong>işlevselliğini kaybetmiş</strong> bir
+                                <p>GÃ¼nÃ¼mÃ¼zde hemen hemen her tÃ¼rden iÅŸletmenin bir web sitesine <strong>sahip olmasÄ±
+                                    gerekiyor</strong>. YalnÄ±zca fiziksel satÄ±ÅŸ yapan ÅŸirketlerin bile kurumsal web
+                                    sitelerinin bulunmasÄ± <strong>bÃ¼yÃ¼k Ã¶nem taÅŸÄ±maktadÄ±r</strong>. Web siteniz
+                                    aÃ§Ä±ldÄ±ÄŸÄ±nda, iÅŸletmenizi gÃ¼zel ve doÄŸru yansÄ±ttÄ±ÄŸÄ±ndan emin olabilmeniz iÃ§in,
+                                    profesyonel bir web tasarÄ±m firmasÄ± ile Ã§alÄ±ÅŸmanÄ±z gerekir. Web sitenizin birÃ§ok
+                                    alandaki performansÄ±, iÅŸletmenizin <strong>sanal kariyeri iÃ§in</strong> bÃ¼yÃ¼k Ã¶nem
+                                    taÅŸÄ±maktadÄ±r. Bu yÃ¼zden yanlÄ±ÅŸ web tasarÄ±m firmasÄ±nÄ± seÃ§mek gibi bir hata yapmaktan
+                                    kaÃ§Ä±nmalÄ±sÄ±nÄ±z.</p>
+                                <p>GÃ¼Ã§lÃ¼ bir sanal varlÄ±k geliÅŸtirebilmek iÃ§in, gÃ¼venilir, deneyimli ve <strong>profesyonel
+                                    bir ÅŸirket</strong> ile Ã§alÄ±ÅŸmanÄ±z gerekecek. Ä°ÅŸletmeler bu konuya bazen gerekli
+                                    Ã¶zeni gÃ¶stermezler ve sadece bÃ¼yÃ¼k gÃ¶rÃ¼nen, Ã§ok ucuz fiyatlara iÅŸ yaptÄ±ÄŸÄ±nÄ± ileri
+                                    sÃ¼ren ÅŸirketlerle Ã§alÄ±ÅŸÄ±rlar, bu da <strong>iÅŸlevselliÄŸini kaybetmiÅŸ</strong> bir
                                     web sitesine neden olur.</p>
 
-                                Bir web site firması seçerken Dikkat edilmesi gereken kriterler şunlardır:
+                                Bir web site firmasÄ± seÃ§erken Dikkat edilmesi gereken kriterler ÅŸunlardÄ±r:
                                 <ul>
                                     <li>
-                                        1. Ucuz Web Tasarım Yaptığını İddia Eden Şirketlerden Uzak Durmak
+                                        1. Ucuz Web TasarÄ±m YaptÄ±ÄŸÄ±nÄ± Ä°ddia Eden Åirketlerden Uzak Durmak
                                     </li>
                                     <li>
-                                        2. Çok Fazla Ücret Ödememek
+                                        2. Ã‡ok Fazla Ãœcret Ã–dememek
                                     </li>
                                     <li>
-                                        3. Makul Fiyatlara Mobil Uyumlu Özgün Tasarım ve SEO Dostu Kodlama Altyapısı
+                                        3. Makul Fiyatlara Mobil Uyumlu Ã–zgÃ¼n TasarÄ±m ve SEO Dostu Kodlama AltyapÄ±sÄ±
                                         Alabiliyor Olmak
                                     </li>
                                     <li>
-                                        4. Web Tasarım Firmasını Yeterince Araştırmak
+                                        4. Web TasarÄ±m FirmasÄ±nÄ± Yeterince AraÅŸtÄ±rmak
                                     </li>
                                     <li>
-                                        5. Kendisini Alanında Uzman Olarak Tanıtan Firmaları İyi Analiz Etmek
+                                        5. Kendisini AlanÄ±nda Uzman Olarak TanÄ±tan FirmalarÄ± Ä°yi Analiz Etmek
                                     </li>
                                     <li>
-                                        6. İhtiyaçlarınızı Tam Olarak Belirlemek
+                                        6. Ä°htiyaÃ§larÄ±nÄ±zÄ± Tam Olarak Belirlemek
                                     </li>
                                     <li>
-                                        7. Bakım, Onarım ve Destek Hakkında Anlaşma Yapmak
+                                        7. BakÄ±m, OnarÄ±m ve Destek HakkÄ±nda AnlaÅŸma Yapmak
                                     </li>
                                     <li>
-                                        8. Yüksek Yıllık Barındırma ve Yenileme Ücretlerinden Kaçınmak
+                                        8. YÃ¼ksek YÄ±llÄ±k BarÄ±ndÄ±rma ve Yenileme Ãœcretlerinden KaÃ§Ä±nmak
                                     </li>
                                 </ul>
                             </div>
@@ -239,10 +240,10 @@ const Question = () => {
                         <div id="collapse9" className="accordion-collapse collapse" aria-labelledby="heading9"
                              data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>Kurumsal web sitesi; firma, kurum, kuruluşlar hakkında bilgiler içeren, işletme ya da
-                                    kurumun faaliyetlerini de görebileceğimiz web siteleri kurumsal web sitesi olarak
-                                    tanımlanabilir. Günümüz iş dünyasında çok önemli bir yere sahip olan kurumsal web
-                                    sitelerini kitap kapağına benzetebilirsiniz.</p>
+                                <p>Kurumsal web sitesi; firma, kurum, kuruluÅŸlar hakkÄ±nda bilgiler iÃ§eren, iÅŸletme ya da
+                                    kurumun faaliyetlerini de gÃ¶rebileceÄŸimiz web siteleri kurumsal web sitesi olarak
+                                    tanÄ±mlanabilir. GÃ¼nÃ¼mÃ¼z iÅŸ dÃ¼nyasÄ±nda Ã§ok Ã¶nemli bir yere sahip olan kurumsal web
+                                    sitelerini kitap kapaÄŸÄ±na benzetebilirsiniz.</p>
                             </div>
                         </div>
                     </li>
@@ -251,14 +252,14 @@ const Question = () => {
                         <button className="accordion-button btn btn-outline-primary accordion-header position-relative"
                                 id="heading10" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10"
                                 aria-expanded="false" aria-controls="collapse10">
-                            Kurumsal Web Sitesi Fiyatları Ne Kadar?
+                            Kurumsal Web Sitesi FiyatlarÄ± Ne Kadar?
                         </button>
                         <div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10"
                              data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>Kurumsal Web Sitesi fiyatları projenizin özelliklerine göre farklılıklar gösterir.
-                                    Kurumsal Web Sitesi fiyatlarımızı <a href="https://Verivizyon.com/iletisim">Bize
-                                        Ulaşın</a> formunu doldurarak kolaylıkla öğrenebilirsiniz.</p>
+                                <p>Kurumsal Web Sitesi fiyatlarÄ± projenizin Ã¶zelliklerine gÃ¶re farklÄ±lÄ±klar gÃ¶sterir.
+                                    Kurumsal Web Sitesi fiyatlarÄ±mÄ±zÄ± <Link to="/iletisim">Bize
+                                        UlaÅŸÄ±n</Link> formunu doldurarak kolaylÄ±kla Ã¶ÄŸrenebilirsiniz.</p>
                             </div>
                         </div>
                     </li>
@@ -267,27 +268,27 @@ const Question = () => {
                         <button className="accordion-button btn btn-outline-primary accordion-header position-relative"
                                 id="heading11" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11"
                                 aria-expanded="false" aria-controls="collapse11">
-                            Kişisel Web Sitesi Nedir?
+                            KiÅŸisel Web Sitesi Nedir?
                         </button>
                         <div id="collapse11" className="accordion-collapse collapse" aria-labelledby="heading11"
                              data-bs-parent="#accordionExample">
                             <div className="accordion-body">
                                 <ul>
                                     <li>
-                                        Kim olduğunuzu göstermek için size tam bir özgürlük sağlar. Siteniz için
-                                        seçtiğiniz renkler ve görseller bile bunun bir parçasıdır.
+                                        Kim olduÄŸunuzu gÃ¶stermek iÃ§in size tam bir Ã¶zgÃ¼rlÃ¼k saÄŸlar. Siteniz iÃ§in
+                                        seÃ§tiÄŸiniz renkler ve gÃ¶rseller bile bunun bir parÃ§asÄ±dÄ±r.
                                     </li>
                                     <li>
-                                        Kariyeriniz konusunda ciddi olduğunuzu ve yukarı doğru tırmanmak için zaman ve
-                                        emek harcayabileceğinizi gösterir.
+                                        Kariyeriniz konusunda ciddi olduÄŸunuzu ve yukarÄ± doÄŸru tÄ±rmanmak iÃ§in zaman ve
+                                        emek harcayabileceÄŸinizi gÃ¶sterir.
                                     </li>
                                     <li>
-                                        İş geçmişiniz, eğitiminiz, başarılarınız ve hobilerinize dair güncel bir arşiv
+                                        Ä°ÅŸ geÃ§miÅŸiniz, eÄŸitiminiz, baÅŸarÄ±larÄ±nÄ±z ve hobilerinize dair gÃ¼ncel bir arÅŸiv
                                         olarak hizmet eder.
                                     </li>
                                     <li>
-                                        Müşteri tavsiyeleri, birçok resim, proje dokümanı ve videoyu içinde
-                                        barındırabilir.
+                                        MÃ¼ÅŸteri tavsiyeleri, birÃ§ok resim, proje dokÃ¼manÄ± ve videoyu iÃ§inde
+                                        barÄ±ndÄ±rabilir.
                                     </li>
                                 </ul>
                             </div>
@@ -298,14 +299,14 @@ const Question = () => {
                         <button className="accordion-button btn btn-outline-primary accordion-header position-relative"
                                 id="heading12" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12"
                                 aria-expanded="false" aria-controls="collapse12">
-                            Kişisel Web Sitesi Fiyatları Ne Kadar?
+                            KiÅŸisel Web Sitesi FiyatlarÄ± Ne Kadar?
                         </button>
                         <div id="collapse12" className="accordion-collapse collapse" aria-labelledby="heading12"
                              data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>Kişisel Web sitesi fiyatları projenizin özelliklerine göre farklılıklar gösterir. Web
-                                    site fiyatlarımızı <a href="https://Verivizyon.com/iletisim">Bize Ulaşın</a> formunu
-                                    doldurarak kolaylıkla öğrenebilirsiniz.</p>
+                                <p>KiÅŸisel Web sitesi fiyatlarÄ± projenizin Ã¶zelliklerine gÃ¶re farklÄ±lÄ±klar gÃ¶sterir. Web
+                                    site fiyatlarÄ±mÄ±zÄ± <Link to="/iletisim">Bize UlaÅŸÄ±n</Link> formunu
+                                    doldurarak kolaylÄ±kla Ã¶ÄŸrenebilirsiniz.</p>
                             </div>
                         </div>
                     </li>

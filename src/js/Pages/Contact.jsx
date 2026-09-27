@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 import Secondbanner from "../Components/Header/SecondBanner/secondbanner";
 import Contactsection from "../Components/Contact/Contactsection/Contactsection";
 import Contactsection2 from "../Components/Contact/ContactSection2/Contactsection2";

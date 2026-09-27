@@ -1,6 +1,6 @@
-import React, { useRef, useState } from 'react';
-import './teklifx.css';
-import './teklifal.css';
+import  { useRef, useState } from 'react';
+import '../../../../css/Components/teklif-al/TeklifalSection/teklifx.css';
+import '../../../../css/Components/teklif-al/TeklifalSection/teklifal.css';
 import emailjs from "@emailjs/browser";
 
 const Teklifalsection2 = () => {
@@ -82,7 +82,7 @@ const Teklifalsection2 = () => {
                             <h3 style={{fontSize: 30, color: "white"}}>VeriVizyon</h3>
                         </div>
                         <div className="steps-content">
-                            <h3 style={{color: "white"}}>Adım <span className="step-number">{formNumber + 1}</span></h3>
+                            <h3 style={{color: "white"}}>AdÄ±m <span className="step-number">{formNumber + 1}</span></h3>
                             {stepDescriptions.map((desc, index) => (
                                 <p key={index} className={`step-number-content ${index === formNumber ? 'active' : 'd-none'}`}>{desc}</p>
                             ))}
@@ -106,7 +106,7 @@ const Teklifalsection2 = () => {
                                 </div>
                                 <div className="input-div">
                                     <input type="text" name="company_name" value={companyName} onChange={(e) => setCompanyName(e.target.value)} />
-                                    <span>{!companyName && "Firma Adını giriniz"}</span>
+                                    <span>{!companyName && "Firma AdÄ±nÄ± giriniz"}</span>
                                 </div>
                             </div>
                             <div className="input-text">
@@ -116,17 +116,17 @@ const Teklifalsection2 = () => {
                                 </div>
                                 <div className="input-div">
                                     <input type="number" name="user_phone" required value={userPhone} onChange={(e) => setUserPhone(e.target.value)} />
-                                    <span>{!userPhone && "Telefon Numaranızı giriniz"}</span>
+                                    <span>{!userPhone && "Telefon NumaranÄ±zÄ± giriniz"}</span>
                                 </div>
                             </div>
                             <div className="input-text">
                                 <div className="input-div">
                                     <input type="text" name="user_website" value={userWebsite} onChange={(e) => setUserWebsite(e.target.value)} />
-                                    <span>{!userWebsite && "sitenin url yazınız."}</span>
+                                    <span>{!userWebsite && "sitenin url yazÄ±nÄ±z."}</span>
                                 </div>
                                 <div className="input-div">
                                     <input type="text" name="user_sector" value={userSector} onChange={(e) => setUserSector(e.target.value)} />
-                                    <span style={{fontSize: 12}}>{!userSector && "Hangi Sektör Çalıştığınızı Belirtiniz"}</span>
+                                    <span style={{fontSize: 12}}>{!userSector && "Hangi SektÃ¶r Ã‡alÄ±ÅŸtÄ±ÄŸÄ±nÄ±zÄ± Belirtiniz"}</span>
                                 </div>
                             </div>
                             <div className="buttons" style={{margin: 30}}>
@@ -136,19 +136,19 @@ const Teklifalsection2 = () => {
 
 
                         <div className={`main ${formNumber === 1 ? 'active' : ''}`}>
-                            <h4 className="text">İlgilendiğiniz dijital pazarlama hizmetleri</h4>
+                            <h4 className="text">Ä°lgilendiÄŸiniz dijital pazarlama hizmetleri</h4>
                             <div className="form-container" style={{textAlign: "left"}}>
                                 <div className="checkbox-container">
-                                    <input type="checkbox" name="hizmet[]" value="web-yazılım" id="web-yazılım" />
-                                    <label className="checkbox" htmlFor="web-yazılım">Web Yazılım hizmeti</label>
+                                    <input type="checkbox" name="hizmet[]" value="web-yazÄ±lÄ±m" id="web-yazÄ±lÄ±m" />
+                                    <label className="checkbox" htmlFor="web-yazÄ±lÄ±m">Web YazÄ±lÄ±m hizmeti</label>
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="e-commerce-software" id="e-commerce-software" />
-                                    <label className="checkbox" htmlFor="e-commerce-software">E-Ticaret Yazılımı</label>
+                                    <label className="checkbox" htmlFor="e-commerce-software">E-Ticaret YazÄ±lÄ±mÄ±</label>
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="grafic-design" id="grafic-design" />
-                                    <label className="checkbox" htmlFor="grafic-design">Grafik Tasarım</label>
+                                    <label className="checkbox" htmlFor="grafic-design">Grafik TasarÄ±m</label>
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="seo" id="Seo" />
@@ -160,15 +160,15 @@ const Teklifalsection2 = () => {
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="google-yonetim" id="google-yonetim" />
-                                    <label className="checkbox" htmlFor="google-yonetim">Google Reklam Yönetimi</label>
+                                    <label className="checkbox" htmlFor="google-yonetim">Google Reklam YÃ¶netimi</label>
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="web-design" id="web-design" />
-                                    <label className="checkbox" htmlFor="web-design">Web Tasarım Hizmeti</label>
+                                    <label className="checkbox" htmlFor="web-design">Web TasarÄ±m Hizmeti</label>
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="Landing-design" id="Landing-design" />
-                                    <label className="checkbox" htmlFor="Landing-design">Landing Tasarım Hizmeti</label>
+                                    <label className="checkbox" htmlFor="Landing-design">Landing TasarÄ±m Hizmeti</label>
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="Google-Ads" id="Google-Ads" />
@@ -176,15 +176,15 @@ const Teklifalsection2 = () => {
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="Sosyal-medya-reklam" id="Sosyal-medya-reklam" />
-                                    <label className="checkbox" htmlFor="Sosyal-medya-reklam">Sosyal Medya Reklamları</label>
+                                    <label className="checkbox" htmlFor="Sosyal-medya-reklam">Sosyal Medya ReklamlarÄ±</label>
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="Web-yonetim" id="Web-yonetim" />
-                                    <label className="checkbox" htmlFor="Web-yonetim">Website Yönetimi</label>
+                                    <label className="checkbox" htmlFor="Web-yonetim">Website YÃ¶netimi</label>
                                 </div>
                                 <div className="checkbox-container">
                                     <input type="checkbox" name="hizmet[]" value="Sosyal-medya-yonetim" id="Sosyal-medya-yonetim" />
-                                    <label className="checkbox" htmlFor="Sosyal-medya-yonetim">Sosyal Medya Yönetimi</label>
+                                    <label className="checkbox" htmlFor="Sosyal-medya-yonetim">Sosyal Medya YÃ¶netimi</label>
                                 </div>
                             </div>
                             <div className="buttons button_space" style={{margin: 30}}>
@@ -193,18 +193,18 @@ const Teklifalsection2 = () => {
                             </div>
                         </div>
                         <div className={`main ${formNumber === 2 ? 'active' : ''}`}>
-                            <h4 className="text">İlgilendiğiniz dijital pazarlama ve satış araçları</h4>
+                            <h4 className="text">Ä°lgilendiÄŸiniz dijital pazarlama ve satÄ±ÅŸ araÃ§larÄ±</h4>
                             <div className="form-container" style={{textAlign: "left"}}>
                                 <div className="checkbox-container">
-                                    <input type="checkbox" name="satıs[]" value="Toplu-E-Posta-Gönderim" id="Toplu-E-Posta-Gönderim" />
-                                    <label className="checkbox" htmlFor="Toplu-E-Posta-Gönderim">Toplu E-Posta Gönderim Platformu</label>
+                                    <input type="checkbox" name="satÄ±s[]" value="Toplu-E-Posta-GÃ¶nderim" id="Toplu-E-Posta-GÃ¶nderim" />
+                                    <label className="checkbox" htmlFor="Toplu-E-Posta-GÃ¶nderim">Toplu E-Posta GÃ¶nderim Platformu</label>
                                 </div>
                                 <div className="checkbox-container">
-                                    <input type="checkbox" name="satıs[]" value="B2B2C-Bayi-Paneli" id="B2B2C-Bayi-Paneli" />
+                                    <input type="checkbox" name="satÄ±s[]" value="B2B2C-Bayi-Paneli" id="B2B2C-Bayi-Paneli" />
                                     <label className="checkbox" htmlFor="B2B2C-Bayi-Paneli">B2B2C-Bayi-Paneli</label>
                                 </div>
                                 <div className="checkbox-container">
-                                    <input type="checkbox" name="satıs[]" value="Teklif-Formu-Paneli" id="Teklif-Formu-Paneli" />
+                                    <input type="checkbox" name="satÄ±s[]" value="Teklif-Formu-Paneli" id="Teklif-Formu-Paneli" />
                                     <label className="checkbox" htmlFor="Teklif-Formu-Paneli">teklif al formu paneli</label>
                                 </div>
                             </div>
@@ -215,12 +215,12 @@ const Teklifalsection2 = () => {
                         </div>
                         <div className={`main ${formNumber === 3 ? 'active' : ''}`}>
                             <div className="form-group">
-                                <textarea required placeholder="Değinmek istediğiniz konu hakkında bilgi veriniz" name="message" style={{height: 150}}></textarea>
+                                <textarea required placeholder="DeÄŸinmek istediÄŸiniz konu hakkÄ±nda bilgi veriniz" name="message" style={{height: 150}}></textarea>
                                 <label htmlFor="textarea" className="control-label"></label><i className="bar"></i>
                             </div>
                             <div className="buttons button_space" style={{margin: 30}}>
                                 <button className="btn btn-primary" onClick={handleBack}>Back</button>
-                                <button type="submit" value="Send" onClick={handleSubmit} className="btn btn-primary" style={{width: 300, fontSize: 20}}><span>Gönder</span></button>
+                                <button type="submit" value="Send" onClick={handleSubmit} className="btn btn-primary" style={{width: 300, fontSize: 20}}><span>GÃ¶nder</span></button>
                             </div>
                         </div>
                         <div className={`main ${formNumber === 4 ? 'active' : ''}`}>

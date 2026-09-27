@@ -1,5 +1,5 @@
-import React, {useRef} from 'react';
-import './teklifal.css';
+import  {useRef} from 'react';
+import '../../../../css/Components/teklif-al/TeklifalSection/teklifal.css';
 import emailjs from "@emailjs/browser";
 const TeklifalSection1 = () => {
 
@@ -29,10 +29,10 @@ const TeklifalSection1 = () => {
     return (
         <div className="container-form container">
             <form  ref={form} onSubmit={sendEmail} >
-                <h1>Dijital Ortamda Görünür Olmaya Başlayın</h1>
+                <h1>Dijital Ortamda GÃ¶rÃ¼nÃ¼r Olmaya BaÅŸlayÄ±n</h1>
                 
-                    <p>Size özel dijital pazarlama çözümlerimizle ve kişiselleştirilmiş özel fiyat tekliflerimizle işletmenizin tüm potansiyelini ortaya çıkarmaya başlayın.</p>
-                    Uzman ekibimizle markanızın çevrimiçi/dijital varlığını geliştirin ve büyümeyi destekleyin.
+                    <p>Size Ã¶zel dijital pazarlama Ã§Ã¶zÃ¼mlerimizle ve kiÅŸiselleÅŸtirilmiÅŸ Ã¶zel fiyat tekliflerimizle iÅŸletmenizin tÃ¼m potansiyelini ortaya Ã§Ä±karmaya baÅŸlayÄ±n.</p>
+                    Uzman ekibimizle markanÄ±zÄ±n Ã§evrimiÃ§i/dijital varlÄ±ÄŸÄ±nÄ± geliÅŸtirin ve bÃ¼yÃ¼meyi destekleyin.
                 <div className="row"><div style={{fontSize:18,paddingTop:15,textAlign:"left"}} className="col-md-6">Ad Soyad*</div>
                     <div style={{fontSize:18,paddingTop:15,textAlign:"left"}} className="col-md-6">Firma </div>
                 </div>
@@ -43,12 +43,12 @@ const TeklifalSection1 = () => {
                     <label htmlFor="input" className="control-label"></label><i className="bar"></i>
                 </div>
                 <div className="form-group col-md-6">
-                    <input type="text" name="company_name" placeholder="Firma Adını giriniz " required="required"/>
+                    <input type="text" name="company_name" placeholder="Firma AdÄ±nÄ± giriniz " required="required"/>
                     <label htmlFor="input" className="control-label"></label><i className="bar"></i>
                 </div>
         </div>
                 <div className="row"><div style={{fontSize:18,paddingTop:15,textAlign:"left"}} className="col-md-6">E-posta Adresi*</div>
-                    <div style={{fontSize:18,paddingTop:15,textAlign:"left"}} className="col-md-6">Telefon Numarası</div>
+                    <div style={{fontSize:18,paddingTop:15,textAlign:"left"}} className="col-md-6">Telefon NumarasÄ±</div>
                 </div>
                 <div className="row">
 
@@ -57,7 +57,7 @@ const TeklifalSection1 = () => {
                         <label htmlFor="input" className="control-label"> </label><i className="bar"></i>
                     </div>
                     <div className="form-group col-md-6">
-                        <input type="number" name="user_phone" placeholder="Telefon Numaranızı giriniz" required="required"/>
+                        <input type="number" name="user_phone" placeholder="Telefon NumaranÄ±zÄ± giriniz" required="required"/>
                         <label htmlFor="input" className="control-label"></label><i className="bar"></i>
                     </div>
                 </div>
@@ -69,29 +69,29 @@ const TeklifalSection1 = () => {
                     <input type="text" placeholder="URL" name="user_website" />
                     <label htmlFor="input"  className="control-label"></label><i className="bar"></i>
                 </div>
-                    <div className="row"><div style={{fontSize:18,paddingTop:15,textAlign:"left"}} className="col-md-6">Sektör</div>
+                    <div className="row"><div style={{fontSize:18,paddingTop:15,textAlign:"left"}} className="col-md-6">SektÃ¶r</div>
 
                     </div>
                 <div className="form-group col-md-12">
-                    <input type="text" name="user_sector" placeholder="Hangi Sektör Çalıştığınızı Belirtiniz" />
+                    <input type="text" name="user_sector" placeholder="Hangi SektÃ¶r Ã‡alÄ±ÅŸtÄ±ÄŸÄ±nÄ±zÄ± Belirtiniz" />
                     <label htmlFor="input" className="control-label"></label><i className="bar"></i>
                 </div>
 
             </div>
 
                 <div className="form-container" style={{textAlign:"left"}}>
-                    <h4>İlgilendiğiniz dijital pazarlama hizmetleri</h4>
+                    <h4>Ä°lgilendiÄŸiniz dijital pazarlama hizmetleri</h4>
                     <div className="checkbox-container">
-                        <input type="checkbox" name="hizmet[]" value="web-yazılım" id="web-yazılım"/>
-                        <label className="checkbox" htmlFor="web-yazılım">Web Yazılım hizmeti</label>
+                        <input type="checkbox" name="hizmet[]" value="web-yazÄ±lÄ±m" id="web-yazÄ±lÄ±m"/>
+                        <label className="checkbox" htmlFor="web-yazÄ±lÄ±m">Web YazÄ±lÄ±m hizmeti</label>
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]" value="e-commerce-software"  id="e-commerce-software"/>
-                        <label className="checkbox" htmlFor="e-commerce-software">E-Ticaret  Yazılımı</label>
+                        <label className="checkbox" htmlFor="e-commerce-software">E-Ticaret  YazÄ±lÄ±mÄ±</label>
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]" value="grafic-design"  id="grafic-design"/>
-                        <label className="checkbox" htmlFor="grafic-design"> Grafik Tasarım</label>
+                        <label className="checkbox" htmlFor="grafic-design"> Grafik TasarÄ±m</label>
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]" value="seo" id="Seo"/>
@@ -104,15 +104,15 @@ const TeklifalSection1 = () => {
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]"  value="google-yonetim" id="google-yonetim"/>
-                        <label className="checkbox" htmlFor="google-yonetim">Google Reklam Yönetimi</label>
+                        <label className="checkbox" htmlFor="google-yonetim">Google Reklam YÃ¶netimi</label>
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]" value="web-design"  id="web-design"/>
-                        <label className="checkbox" htmlFor="web-design"> Web Tasarım Hizmeti</label>
+                        <label className="checkbox" htmlFor="web-design"> Web TasarÄ±m Hizmeti</label>
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]"  value="Landing-design" id="Landing-design"/>
-                        <label className="checkbox" htmlFor="Landing-design">Landing Tasarım Hizmeti</label>
+                        <label className="checkbox" htmlFor="Landing-design">Landing TasarÄ±m Hizmeti</label>
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]" value="Google-Ads"  id="Google-Ads"/>
@@ -120,28 +120,28 @@ const TeklifalSection1 = () => {
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]" value="Sosyal-medya-reklam"  id="Sosyal-medya-reklam"/>
-                        <label className="checkbox" htmlFor="Sosyal-medya-reklam">Sosyal Medya Reklamları</label>
+                        <label className="checkbox" htmlFor="Sosyal-medya-reklam">Sosyal Medya ReklamlarÄ±</label>
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]"  value="Web-yonetim" id="Web-yonetim"/>
-                        <label className="checkbox"   htmlFor="Web-yonetim">Website Yönetimi</label>
+                        <label className="checkbox"   htmlFor="Web-yonetim">Website YÃ¶netimi</label>
                     </div>
                     <div className="checkbox-container">
                         <input type="checkbox" name="hizmet[]" value="Sosyal-medya-yonetim" id="Sosyal-medya-yonetim"/>
-                        <label className="checkbox"   htmlFor="Sosyal-medya-yonetim">Sosyal Medya Yönetimi</label>
+                        <label className="checkbox"   htmlFor="Sosyal-medya-yonetim">Sosyal Medya YÃ¶netimi</label>
                     </div>
-                    <h4>İlgilendiğiniz dijital pazarlama ve satış araçları</h4>
+                    <h4>Ä°lgilendiÄŸiniz dijital pazarlama ve satÄ±ÅŸ araÃ§larÄ±</h4>
                     <div className="checkbox-container">
-                        <input type="checkbox" name="satıs[]" value="Toplu-E-Posta-Gönderim" id="Toplu-E-Posta-Gönderim"/>
-                        <label className="checkbox" htmlFor="Toplu-E-Posta-Gönderim">Toplu E-Posta Gönderim Platformu</label>
+                        <input type="checkbox" name="satÄ±s[]" value="Toplu-E-Posta-GÃ¶nderim" id="Toplu-E-Posta-GÃ¶nderim"/>
+                        <label className="checkbox" htmlFor="Toplu-E-Posta-GÃ¶nderim">Toplu E-Posta GÃ¶nderim Platformu</label>
                     </div>
                     <div className="checkbox-container">
-                        <input type="checkbox" name="satıs[]" value="B2B2C-Bayi-Paneli"  id="B2B2C-Bayi-Paneli"/>
+                        <input type="checkbox" name="satÄ±s[]" value="B2B2C-Bayi-Paneli"  id="B2B2C-Bayi-Paneli"/>
                         <label className="checkbox" htmlFor="B2B2C-Bayi-Paneli">B2B2C-Bayi-Paneli</label>
                     </div>
                     <div className="checkbox-container">
-                        <input type="checkbox" name="satıs[]" value="Teklif-Formu-Paneli"  id="Teklif-Formu-Paneli"/>
-                        <label className="checkbox" htmlFor="Teklif-Formu-Paneli"> Grafik Tasarım</label>
+                        <input type="checkbox" name="satÄ±s[]" value="Teklif-Formu-Paneli"  id="Teklif-Formu-Paneli"/>
+                        <label className="checkbox" htmlFor="Teklif-Formu-Paneli"> Grafik TasarÄ±m</label>
                     </div>
 
 
@@ -149,15 +149,15 @@ const TeklifalSection1 = () => {
 
 
                 </div>
-                <div className="row"><div style={{fontSize:18,paddingTop:15,textAlign:"left"}} className="col-md-6">Nasıl yardımcı olabiliriz ?</div>
+                <div className="row"><div style={{fontSize:18,paddingTop:15,textAlign:"left"}} className="col-md-6">NasÄ±l yardÄ±mcÄ± olabiliriz ?</div>
 
                 </div>
                 <div className="form-group">
-                    <textarea required="required" placeholder="Değinmek istediğiniz konu hakkında bilgi veriniz" name="message" style={{height:150}}></textarea>
+                    <textarea required="required" placeholder="DeÄŸinmek istediÄŸiniz konu hakkÄ±nda bilgi veriniz" name="message" style={{height:150}}></textarea>
                     <label htmlFor="textarea" className="control-label"></label><i className="bar"></i>
                 </div>
                 <div className="button-container">
-                    <button type="submit" value="Send" className="btn btn-primary" style={{width:300,fontSize:20}}><span>Gönder</span></button>
+                    <button type="submit" value="Send" className="btn btn-primary" style={{width:300,fontSize:20}}><span>GÃ¶nder</span></button>
                 </div>
 
 

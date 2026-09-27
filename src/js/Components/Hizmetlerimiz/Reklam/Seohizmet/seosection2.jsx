@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 import {IoIosStar} from "react-icons/io";
 
 const Seosection2 = () => {

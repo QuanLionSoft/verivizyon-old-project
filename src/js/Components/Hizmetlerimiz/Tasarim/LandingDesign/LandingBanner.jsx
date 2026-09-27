@@ -1,5 +1,5 @@
-import React from 'react';
-import MainTasarim from "../../../../Pages/hizmetlerimiz/Tasarim/MainTasarim";
+import  'react';
+import MainTasarim from "../../../../Pages/hizmetlerimiz/Tasarim/MainTasarim.jsx";
 import {Link} from "react-router-dom";
 import Homepage from "../../../../Pages/Homepage";
 
@@ -15,7 +15,7 @@ const LandingBanner = () => {
                                 <li className="breadcrumb-item"><Link className="text-secondary"
                                                                       to="/" element={<Homepage/>}>Anasayfa</Link></li>
                                 <li className="breadcrumb-item">
-                                    <Link className="text-secondary" to="/Tasarim" element={<MainTasarim/>}>Tasarım
+                                    <Link className="text-secondary" to="/tasarim" element={<MainTasarim/>}>Tasarım
                                         Hizmetleri</Link>
                                 </li>
                                 <li className="breadcrumb-item active text-primary" aria-current="page">Landing Tasarım Hizmetleri

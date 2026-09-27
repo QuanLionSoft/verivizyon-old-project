@@ -1,4 +1,4 @@
-import React from 'react';
+import 'react';
 import Homepage from "../../../Pages/Homepage";
 import {Link} from "react-router-dom";
 

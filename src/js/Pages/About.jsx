@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 import Secondbanner from "../Components/Header/SecondBanner/secondbanner";
 import Aboutbanner from "../Components/About/aboutbanner/Aboutbanner";
 import AboutSection from "../Components/About/aboutsection/AboutSection";

@@ -1,5 +1,5 @@
-import React from 'react';
-import './pophiz.css';
+import  'react';
+import '../../../css/Components/pophiz/pophiz.css';
 import {Link} from "react-router-dom";
 import WebDesign from "../../Pages/hizmetlerimiz/Tasarim/tasarim-down-page/WebDesign";
 import ECommerce from "../../Pages/hizmetlerimiz/yazilim/yazilim-down-page/E-commerce";
@@ -11,24 +11,24 @@ const Pophiz = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="text-center fs-sm-28">Popüler Hizmetlerimiz</h2>
+                        <h2 className="text-center fs-sm-28">PopÃ¼ler Hizmetlerimiz</h2>
                     </div>
                 </div>
             </div>
             <div className="container hizmetler">
                 <div className="row">
                     <div className="col-md-4">
-                        <Link to="Webdesign" element={<WebDesign/>} className="hizmet_1">
+                        <Link to="/tasarim/webdesign" element={<WebDesign/>} className="hizmet_1">
                             <div className="card hizmet_card">
                                 <div className="hizmet_img">
                                     <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/web-tasarim.svg?updatedAt=1714930062437" className="img-fluid" alt=""/>
                                 </div>
                                 <div className="card-title">
-                                    <h3>Web Tasarım Hizmeti</h3>
+                                    <h3>Web TasarÄ±m Hizmeti</h3>
                                 </div>
                                 <div className="card-body">
-                                    <p>Web Tasarım Hizmeti ile ihtiyacınız olan tasarım desteğine <span
-                                        className="text-primary">VeriVizyon</span> iş ortaklığı ile sahip olabilirsiniz.</p>
+                                    <p>Web TasarÄ±m Hizmeti ile ihtiyacÄ±nÄ±z olan tasarÄ±m desteÄŸine <span
+                                        className="text-primary">VeriVizyon</span> iÅŸ ortaklÄ±ÄŸÄ± ile sahip olabilirsiniz.</p>
                                 </div>
                                 <div className="card-footer" style={{}}>
                                     <span>Detaylar<i className="las la-chevron-right ml-2"></i></span>
@@ -37,17 +37,17 @@ const Pophiz = () => {
                         </Link>
                     </div>
                     <div className="col-md-4">
-                        <Link to="E-commerce" element={<ECommerce/>} className="hizmet_2">
+                        <Link to="/yazilim/ecommerce" element={<ECommerce/>} className="hizmet_2">
                             <div className="card hizmet_card">
                                 <div className="hizmet_img">
                                     <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/e-ticaret.svg?updatedAt=1714931724542" className="img-fluid" alt=""/>
                                 </div>
                                 <div className="card-title">
-                                    <h3>E-Ticaret Yazılımı</h3>
+                                    <h3>E-Ticaret YazÄ±lÄ±mÄ±</h3>
                                 </div>
                                 <div className="card-body">
-                                    <p>E-Ticaret Yazılımı ile ihtiyacınız olan yazılım desteğine <span
-                                        className="text-primary">VeriVizyon</span> iş ortaklığı ile sahip olabilirsiniz.</p>
+                                    <p>E-Ticaret YazÄ±lÄ±mÄ± ile ihtiyacÄ±nÄ±z olan yazÄ±lÄ±m desteÄŸine <span
+                                        className="text-primary">VeriVizyon</span> iÅŸ ortaklÄ±ÄŸÄ± ile sahip olabilirsiniz.</p>
                                 </div>
                                 <div className="card-footer">
                                     <span>Detaylar<i className="las la-chevron-right ml-2"></i></span>
@@ -56,7 +56,7 @@ const Pophiz = () => {
                         </Link>
                     </div>
                     <div className="col-md-4">
-                        <Link to="Seohizmet" element={<Seo/>} className="hizmet_3">
+                        <Link to="/reklam/seohizmet" element={<Seo/>} className="hizmet_3">
                             <div className="card hizmet_card">
                                 <div className="hizmet_img">
                                     <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/seo-hizmeti.svg?updatedAt=1714930059481" className="img-fluid" alt=""/>
@@ -65,8 +65,8 @@ const Pophiz = () => {
                                     <h3>SEO Hizmeti</h3>
                                 </div>
                                 <div className="card-body">
-                                    <p>SEO Hizmeti ile ihtiyacınız olan reklam desteğine <span
-                                        className="text-primary">VeriVizyon</span> iş ortaklığı ile sahip olabilirsiniz.</p>
+                                    <p>SEO Hizmeti ile ihtiyacÄ±nÄ±z olan reklam desteÄŸine <span
+                                        className="text-primary">VeriVizyon</span> iÅŸ ortaklÄ±ÄŸÄ± ile sahip olabilirsiniz.</p>
                                 </div>
                                 <div className="card-footer">
                                     <span>Detaylar<i className="las la-chevron-right ml-2"></i></span>

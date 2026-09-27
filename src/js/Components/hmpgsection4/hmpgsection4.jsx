@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 // import qrpicture from '../../Picture/qrken.svg';
 const Hmpgsection4 = () => {
     return (

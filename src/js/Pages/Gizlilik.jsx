@@ -1,6 +1,6 @@
-import React from 'react';
+import  'react';
 import Secondbanner from "../Components/Header/SecondBanner/secondbanner";
-import GizliBanner from "../Components/gizlilik/GizlilikBanner/GizlilikBanner";
+import GizliBanner from "../Components/gizlilik/GizlilikBanner/GizlilikBanner.jsx";
 import GizlilikSection from "../Components/gizlilik/GizlilikSection/GizlilikSection";
 
 import Footer from "../Components/Footer/footer";

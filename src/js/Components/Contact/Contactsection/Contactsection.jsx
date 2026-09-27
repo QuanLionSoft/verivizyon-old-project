@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 import { FaMapLocationDot } from "react-icons/fa6";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";

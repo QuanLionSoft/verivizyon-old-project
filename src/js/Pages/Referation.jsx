@@ -1,4 +1,4 @@
-import React from 'react';
+import  'react';
 import Secondbanner from "../Components/Header/SecondBanner/secondbanner";
 import RefBanner from "../Components/Ref/RefBanner/RefBanner";
 import RefSection from "../Components/Ref/RefSection/RefSection";

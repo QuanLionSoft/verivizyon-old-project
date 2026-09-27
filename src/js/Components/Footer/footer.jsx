@@ -1,5 +1,5 @@
-import React from 'react';
-import './footer.css';
+import  'react';
+import '../../../css/Components/Footer/footer.css';
 import {Link} from 'react-router-dom';
 
 import footlogo from "../../Picture/data/Verivizyonlogo-01.png";
@@ -8,10 +8,10 @@ import Homepage from "../../Pages/Homepage";
 import About from "../../Pages/About";
 import Referation from "../../Pages/Referation";
 import Contact from "../../Pages/Contact";
-import MainYazilim from "../../Pages/hizmetlerimiz/yazilim/MainYazilim";
-import MainTasarim from "../../Pages/hizmetlerimiz/Tasarim/MainTasarim";
-import MainReklam from "../../Pages/hizmetlerimiz/Reklam/MainReklam";
-import MainYonetim from "../../Pages/hizmetlerimiz/Yonetim/MainYonetim";
+import MainYazilim from "../../Pages/hizmetlerimiz/yazilim/MainYazilim.jsx";
+import MainTasarim from "../../Pages/hizmetlerimiz/Tasarim/MainTasarim.jsx";
+import MainReklam from "../../Pages/hizmetlerimiz/Reklam/MainReklam.jsx";
+import MainYonetim from "../../Pages/hizmetlerimiz/Yonetim/MainYonetim.jsx";
 import Gizlilik from "../../Pages/Gizlilik";
 import Teklifalpage from "../../Pages/teklifalpage";
 // import ScrollTopButton from "../scrolltop/scroolsad";
@@ -26,8 +26,8 @@ const Footer = () => {
                         <Link className="footer-logo h2 text-primary mb-0 font-w-7" to="/" element={Homepage}>
                             <img src={footlogo}className="w-75" alt="" />
                         </Link>
-                        <p className="my-3 text-light">Düşüncelerinizde tasarladığınız Web site yapısını Hızlı ve Akıcı
-                            bir serüvene dönüştürüyoruz.</p>
+                        <p className="my-3 text-light">DÃ¼ÅŸÃ¼ncelerinizde tasarladÄ±ÄŸÄ±nÄ±z Web site yapÄ±sÄ±nÄ± HÄ±zlÄ± ve AkÄ±cÄ±
+                            bir serÃ¼vene dÃ¶nÃ¼ÅŸtÃ¼rÃ¼yoruz.</p>
                         <ul className="list-inline">
                             <li className="list-inline-item"><Link className="px-2 py-1 text-light fs-24" to="#"><i
                                 className="la la-facebook"></i></Link>
@@ -46,16 +46,16 @@ const Footer = () => {
                     <div className="col-12 col-lg-6 col-xl-7">
                         <div className="row">
                             <div className="col-12 col-sm-4">
-                                <h5 className="mb-4 text-white">Hızlı Erişim</h5>
+                                <h5 className="mb-4 text-white">HÄ±zlÄ± EriÅŸim</h5>
                                 <ul className="list-unstyled mb-0">
                                     <li className="mb-3"><Link className="list-group-item-action text-light"
-                                                            to="/hakkimizda" element={About}>Hakkımızda</Link>
+                                                            to="/hakkimizda" element={About}>HakkÄ±mÄ±zda</Link>
                                     </li>
                                     <li className="mb-3"><Link className="list-group-item-action text-light"
                                                             to="/referanslarimiz" element={Referation}>Projelerimiz</Link>
                                     </li>
                                     <li className="mb-3"><Link className="list-group-item-action text-light"
-                                                            to="/iletisim" element={Contact}>Bize Ulaşın</Link>
+                                                            to="/iletisim" element={Contact}>Bize UlaÅŸÄ±n</Link>
                                     </li>
                                     <li>
                                         <Link to="/teklif-al" element={<Teklifalpage/>}>
@@ -70,23 +70,23 @@ const Footer = () => {
                                 <h5 className="mb-4 text-white">Hizmetlerimiz</h5>
                                 <ul className="list-unstyled mb-0">
                                     <li className="mb-3"><Link className="list-group-item-action text-light"
-                                                            to="/yazilim" element={MainYazilim}>Yazılım Hizmetleri</Link>
+                                                            to="/yazilim" element={MainYazilim}>YazÄ±lÄ±m Hizmetleri</Link>
                                     </li>
                                     <li className="mb-3"><Link className="list-group-item-action text-light"
-                                                            to="/tasarim" element={MainTasarim}>Tasarım Hizmetleri</Link>
+                                                            to="/tasarim" element={MainTasarim}>TasarÄ±m Hizmetleri</Link>
                                     </li>
                                     <li className="mb-3"><Link className="list-group-item-action text-light"
                                                             to="/reklam" element={MainReklam}>Reklam Hizmetleri</Link>
                                     </li>
                                     <li><Link className="list-group-item-action text-light"
-                                           to="/yonetim" element={MainYonetim}>Yönetim Hizmetleri</Link>
+                                           to="/yonetim" element={MainYonetim}>YÃ¶netim Hizmetleri</Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="col-12 col-sm-4 mt-6 mt-sm-0">
-                                <h5 className="mb-4 text-white">İletişim</h5>
+                                <h5 className="mb-4 text-white">Ä°letiÅŸim</h5>
                                 <div className="mb-3">
-                                    <p className="mb-0 text-light">İlkadım/Samsun</p>
+                                    <p className="mb-0 text-light">Ä°lkadÄ±m/Samsun</p>
                                 </div>
                                 <div className="mb-3">
                                     <Link className="btn-link text-light"
@@ -94,8 +94,8 @@ const Footer = () => {
                                 </div>
                                 <div>
                                     <Link className="btn-link text-light"
-                                       to="https://api.whatsapp.com/send?phone=+905058395561&text=Merhaba,&nbsp;hizmetleriniz&nbsp;hakkında&nbsp;bilgi&nbsp;almak&nbsp;istiyorum.">WhatsApp'dan
-                                        Ulaşın</Link>
+                                       to="https://api.whatsapp.com/send?phone=+905058395561&text=Merhaba,&nbsp;hizmetleriniz&nbsp;hakkÄ±nda&nbsp;bilgi&nbsp;almak&nbsp;istiyorum.">WhatsApp'dan
+                                        UlaÅŸÄ±n</Link>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ const Footer = () => {
                 <div
                     className="d-flex justify-content-md-between justify-content-center flex-md-row flex-column align-items-center">
                     <div className="text-light">
-                        &copy; 2024 Tüm Haklar Saklıdır | Tasarlayan ve Geliştiren <Link
+                        &copy; 2024 TÃ¼m Haklar SaklÄ±dÄ±r | Tasarlayan ve GeliÅŸtiren <Link
                                                                                       to="#" style={{color:"white",fontWeight:"bold" }}>VeriVizyon</Link>
                     </div>
                     <div className="text-md-end text-center mt-3 mt-md-0">
@@ -122,7 +122,7 @@ const Footer = () => {
                             <li className="me-3 list-inline-item">
                                 <Link className="list-group-item-action text-light"
                                    to="/gizlilik" element={Gizlilik}>
-                                    Gizlilik Sözleşmesi
+                                    Gizlilik SÃ¶zleÅŸmesi
                                 </Link>
                             </li>
                         </ul>

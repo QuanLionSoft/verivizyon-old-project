@@ -1,10 +1,10 @@
-import React from 'react';
+import  'react';
 import Secondbanner from "../Components/Header/SecondBanner/secondbanner";
 import Footer from "../Components/Footer/footer";
-import HmpgSection from "../Components/Body/hmpgsection/Hmpgsection";
+import Hmpgsection from "../Components/Body/hmpgsection/Hmpgsection.jsx";
 import Hmpgsection2 from "../Components/Body/hmpgsection2/hmpgsection_2";
-import Question from "../Components/according/question";
-import Section3 from "../Components/Body/hmpgsection3/section3";
+import Question from "../Components/according/question.jsx";
+import Section3 from "../Components/Body/hmpgsection3/section3.jsx";
 import Hmpgsection4 from "../Components/hmpgsection4/hmpgsection4";
 
 import Pophiz from "../Components/pophiz/pophiz";
@@ -16,7 +16,7 @@ const Homepage = () => {
         <div>
         <Secondbanner/>
         <br/>
-<HmpgSection/>
+<Hmpgsection/>
 <Hmpgsection2/>
 <Section3/>
 <Neleryap/>

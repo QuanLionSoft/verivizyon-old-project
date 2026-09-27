@@ -3,9 +3,9 @@ import Secondbanner from "../../../../Components/Header/SecondBanner/secondbanne
 import GoogleYonetimBanner from "../../../../Components/Hizmetlerimiz/Yonetim/GoogleYonetim/GoogleYonetimBanner";
 import GoogleYonetimSection1 from "../../../../Components/Hizmetlerimiz/Yonetim/GoogleYonetim/GoogleYonetimSection1";
 import GoogleYonetimSection2 from "../../../../Components/Hizmetlerimiz/Yonetim/GoogleYonetim/GoogleYonetimSection2";
-import Fikirsection from "../../../../Components/Hizmetlerimiz/fikir-section/Fikirsection";
+import Fikirsection from "../../../../Components/Hizmetlerimiz/fikir-section/Fikirsection.jsx";
 import Neleryap from "../../../../Components/Body/neleryap/neleryap";
-import Question from "../../../../Components/according/question";
+import Question from "../../../../Components/according/question.jsx";
 
 import Footer from "../../../../Components/Footer/footer";
 
