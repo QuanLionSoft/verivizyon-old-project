@@ -1,0 +1,119 @@
+
+
+.accordion .accordion-item {
+    max-width:600px;
+    background: none;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.accordion .accordion-item .accordion-button {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    padding: .5rem 1rem;
+    background: white;
+}
+
+.accordion-button:focus {
+    border-color: inherit;
+    box-shadow: none;
+}
+
+.accordion .accordion-item .accordion-button:after {
+    width: 10px;
+    height: 20px;
+    /*border-radius: 50%;*/
+    text-align: center;
+    line-height: 20px;
+    background: black;
+    /*content: "\f107";*/
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
+    font-size: 0.7rem;
+    top: 50%;
+    position: absolute;
+    right: 0.5rem;
+    margin-top: -10px;
+}
+
+
+.accordion .accordion-item .accordion-button[aria-expanded="true"] {
+    color: black;
+background: white;
+}
+
+.accordion .accordion-item .accordion-button[aria-expanded="true"]:after {
+    background: #285daa;
+    color: white;
+    transform: rotate(180deg);
+
+}
+
+.accordion .accordion-body {
+    padding: 15px;
+    line-height: 2;
+}
+
+.accordion .accordion-body li a {
+    font-size: 1rem;
+    color:black;
+}
+
+input[type=checkbox] {
+    z-index: 10000;
+    color:black;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    touch-action: manipulation;
+}
+input[type=checkbox]:checked ~ h2 {
+    color: #000;
+}
+input[type=checkbox]:checked ~ p {
+    /*margin-top: 0;*/
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+    /*transform: translate(0, 50%);*/
+}
+ input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg);
+}
+ input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+    text-decoration: none;
+    outline: 0;
+}
+

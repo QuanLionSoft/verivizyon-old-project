@@ -1,0 +1,140 @@
+
+#fstdiv1{
+    alignItems:center ;
+    justifycontent:between
+}
+#fstdiv2{
+    border:none;
+}
+
+.ms-2, .mx-2 {
+    margin-left: .5rem !important;
+}
+.me-2, .mx-2 {
+    margin-right: .5rem !important;
+}
+
+.menutops{
+    border-bottom: 1px solid #e2e4ec;
+}
+.menu_top {
+    margin-bottom: 5px;
+
+    line-height: 50px;
+}
+Link,a, i, button, img, span, .dropdown-item, .hover-translate, .btn:before, .feature-hover, .feature-hover:before, .testimonial-carousel .controls li, .scroll-top a:before {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.menu_top .top_div Link {
+    color: #8f8f8f;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.menu_top .top_div Link:hover {
+    color:#285daa;
+    font-size: 14px;
+    line-height: 20px;
+}
+.menu_top .top_div.top_socialmedia .made {
+    font-size: 25px;
+    color: #8f8f8f;
+}
+.iconface{
+    font-size: 25px;
+}
+
+.iconface:hover{
+    color: blue;
+    font-size: 25px;
+}
+.icontwitter{
+   font-size: 25px;
+}
+.icontwitter:hover{
+    color: deepskyblue;
+    font-size: 25px;
+}
+.iconinsta{
+    font-size: 25px;
+
+}
+.iconinsta:hover{
+    color:#7433ff;
+    font-size: 25px;
+
+}
+.iconyoutube:hover{
+    font-size: 25px;
+    color: red;
+}
+.iconyoutube{
+font-size: 25px;
+}
+.iconlinkedin{
+    font-size: 20px;
+}
+.iconlinkedin:hover {
+    font-size: 20px;
+    color: blue;
+}
+.iconpinterest:hover{
+    font-size: 20px;
+    color: red;
+}
+.iconpinterest{
+    font-size: 20px;
+}
+.pl-0, .px-0 {
+    padding-left: 0 !important;
+}
+.la, .las {
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
+}
+
+.la, .lab, .lad, .lal, .lar, .las {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.justify-content-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+
+.iconara{
+    margin:10px;
+}
+@media (max-width: 768px) {
+    .navbarse {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .navbarse {
+        display: none;
+    }
+}
