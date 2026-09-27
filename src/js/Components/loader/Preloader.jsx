@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import styled, { keyframes } from "styled-components";
-import svg from "./Verivizyon logo.svg";
+import svg from "../../Picture/Verivizyon logo.svg";
 
 const Preloader = () => {
     const [isLoading, setIsLoading] = useState(true);

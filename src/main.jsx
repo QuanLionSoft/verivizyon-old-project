@@ -1,6 +1,8 @@
+// src/main.jsx (Mevcut ve DOĞRU haliniz)
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './css/index.css'
+
+import './css/App.css' 
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(

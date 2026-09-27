@@ -26,21 +26,21 @@ const Section3 = () => {
         <section className="neler-yapiyoruz">
             <div className="container">
                 <div className="col-12 mb-5">
-                    <h2 className="text-center fs-sm-28">Neler YapÄ±yoruz ?</h2>
+                    <h2 className="text-center fs-sm-28">Neler Yapıyoruz ?</h2>
                 </div>
                 <div className="tabs-v" id="checkboxContainer">
 
                     <input type="radio" name="tabs-v" id="tab1-v" defaultChecked />
                     <label htmlFor="tab1-v">
                         <img src="https://ik.imagekit.io/lgf1wyqnvg/iconsed-verivizyon/web-design.png?updatedAt=1716503840897" />
-                        <p>Web TasarÄ±m</p>
+                        <p>Web Tasarım</p>
                     </label>
                     <div className="tab-content">
                         <div>
                             <div className="txt-tab">
                                 <div>
-                                    <h3>Web TasarÄ±m</h3>
-                                    <p>Modern, iÅŸlevsel, mobil uyumlu, Ã¶zgÃ¼n, kullanÄ±cÄ± dostu, ekonomik, yenilikÃ§i, profesyonel, stratejik, yÃ¼ksek geri dÃ¶nÃ¼ÅŸ ve baÅŸarÄ± odaklÄ± web tasarÄ±m projeleri Ã¼retiyoruz.</p>
+                                    <h3>Web Tasarım</h3>
+                                    <p>Modern, işlevsel, mobil uyumlu, özgön, kullanıcı dostu, ekonomik, yenilikçi, profesyonel, stratejik, yöksek geri dönöş ve başarı odaklı web tasarım projeleri üretiyoruz.</p>
                                 </div>
                             </div>
                             <div className="img-tab1"></div>
@@ -57,7 +57,7 @@ const Section3 = () => {
                             <div className="txt-tab">
                                 <div>
                                     <h3>SEO Optimizasyonu</h3>
-                                    <p>Projelerin geliÅŸtirilme aÅŸamasÄ±nda, temel ve modern seo kurallarÄ±nÄ± dikkate alÄ±yor ve projenizi bu kurallara gÃ¶re geliÅŸtiriyoruz.</p>
+                                    <p>Projelerin geliştirilme aşamasında, temel ve modern seo kurallarını dikkate alıyor ve projenizi bu kurallara göre geliştiriyoruz.</p>
                                 </div>
                             </div>
                             <div className="img-tab2"></div>
@@ -74,7 +74,7 @@ const Section3 = () => {
                             <div className="txt-tab">
                                 <div>
                                     <h3>Logo & Kurumsal Kimlik</h3>
-                                    <p>Profesyonel, YaratÄ±cÄ±, Ã¶zgÃ¼n, hatÄ±rlanmasÄ± kolay, kurumsal kimlik, logo, amblem, katalog, broÅŸÃ¼r, kurumsal evrak, afiÅŸ vb. yayÄ±nlar oluÅŸturuyoruz.</p>
+                                    <p>Profesyonel, Yaratıcı, özgün, hatırlanması kolay, kurumsal kimlik, logo, amblem, katalog, broşür, kurumsal evrak, afiş vb. yayınlar oluşturuyoruz.</p>
                                 </div>
                             </div>
                             <div className="img-tab3"></div>
@@ -84,14 +84,14 @@ const Section3 = () => {
                     <input type="radio" name="tabs-v" id="tab4-v" />
                     <label htmlFor="tab4-v">
                         <img src="https://ik.imagekit.io/lgf1wyqnvg/iconsed-verivizyon/icons8-code-64.png?updatedAt=1716503840903" />
-                        <p>YazÄ±lÄ±m GeliÅŸtirme</p>
+                        <p>Yazılım Geliştirme</p>
                     </label>
                     <div className="tab-content">
                         <div className="reverse-tab">
                             <div className="txt-tab">
                                 <div>
-                                    <h3>YazÄ±lÄ±m GeliÅŸtirme</h3>
-                                    <p>PHP, MySQL, Java, C, C++, jQuery, Javascript, Node-JS, MongoDB, .NET veya CSS yazÄ±lÄ±m dilleriyle istediÄŸiniz yazÄ±lÄ±m projesini siz hayal edin biz gerÃ§ekleÅŸtirelim.</p>
+                                    <h3>Yazılım Geliştirme</h3>
+                                    <p>PHP, MySQL, Java, C, C++, jQuery, Javascript, Node-JS, MongoDB, .NET veya CSS yazılım dilleriyle istediğiniz yazılım projesini siz hayal edin biz gerçekleştirelim.</p>
                                 </div>
                             </div>
                             <div className="img-tab4"></div>
@@ -101,14 +101,14 @@ const Section3 = () => {
                     <input type="radio" name="tabs-v" id="tab5-v" />
                     <label htmlFor="tab5-v">
                         <img src="https://ik.imagekit.io/lgf1wyqnvg/iconsed-verivizyon/icons8-megaphone-64.png?updatedAt=1716503840865" />
-                        <p>Reklam YÃ¶netimi</p>
+                        <p>Reklam Yönetimi</p>
                     </label>
                     <div className="tab-content">
                         <div>
                             <div className="txt-tab">
                                 <div>
-                                    <h3>Reklam YÃ¶netimi</h3>
-                                    <p>Adwords, Facebook, Instagram veya Twitter reklamlarÄ±nÄ±zÄ±n optimizasyon ve yÃ¶netimini iÅŸi bilen ellere bÄ±rakÄ±n. Hedef kitlenize sizi biz ulaÅŸtÄ±ralÄ±m.</p>
+                                    <h3>Reklam Yönetimi</h3>
+                                    <p>Adwords, Facebook, Instagram veya Twitter reklamlarınızın optimizasyon ve yönetimini işi bilen ellere bırakın. Hedef kitlenize sizi biz ulaştÄ±ralÄ±m.</p>
                                 </div>
                             </div>
                             <div className="img-tab5"></div>
@@ -118,14 +118,14 @@ const Section3 = () => {
                     <input type="radio" name="tabs-v" id="tab6-v" />
                     <label htmlFor="tab6-v">
                         <img src="https://ik.imagekit.io/lgf1wyqnvg/iconsed-verivizyon/icons8-person-64.png?updatedAt=1716503840980" />
-                        <p>Web DanÄ±ÅŸmanlÄ±k</p>
+                        <p>Web DanÄ±şmanlÄ±k</p>
                     </label>
                     <div className="tab-content">
                         <div className="reverse-tab">
                             <div className="txt-tab">
                                 <div>
-                                    <h3>Web DanÄ±ÅŸmanlÄ±k</h3>
-                                    <p>BiliÅŸim alanÄ±nda ki ihtiyaÃ§larÄ±nÄ±za profesyonel Ã§Ã¶zÃ¼mler Ã¼retirken, gÃ¼venilir iÅŸ ortaÄŸÄ±nÄ±z olarak, esas iÅŸinizi destekleyici biliÅŸim Ã§alÄ±ÅŸmalarÄ±nÄ± Ã¼stlenmekteyiz.</p>
+                                    <h3>Web DanÄ±şmanlÄ±k</h3>
+                                    <p>Bilişim alanÄ±nda ki ihtiyaçlarÄ±nÄ±za profesyonel çözümler üretirken, güvenilir iş ortağÄ±nÄ±z olarak, esas işinizi destekleyici bilişim çalÄ±şmalarÄ±nÄ± üstlenmekteyiz.</p>
                                 </div>
                             </div>
                             <div className="img-tab6"></div>
@@ -135,14 +135,14 @@ const Section3 = () => {
                     <input type="radio" name="tabs-v" id="tab7-v" />
                     <label htmlFor="tab7-v">
                         <img src="https://ik.imagekit.io/lgf1wyqnvg/iconsed-verivizyon/icons8-toolbox-64.png?updatedAt=1716504441239" />
-                        <p>Google Ä°ÅŸletme AraÃ§larÄ±</p>
+                        <p>Google İşletme AraçlarÄ±</p>
                     </label>
                     <div className="tab-content">
                         <div>
                             <div className="txt-tab">
                                 <div>
-                                    <h3>Google Ä°ÅŸletme AraÃ§larÄ±</h3>
-                                    <p>Ä°ÅŸletmenizi Google platformlarÄ±nda daha gÃ¶rÃ¼nÃ¼r kÄ±lmak ve dijital stratejinizi gÃ¼Ã§lendirmek iÃ§in sunduÄŸumuz kapsamlÄ± hizmetlerimizle, hedef kitlenize daha etkili bir ÅŸekilde ulaÅŸmanÄ±za yardÄ±mcÄ± oluyoruz. </p>
+                                    <h3>Google İşletme AraçlarÄ±</h3>
+                                    <p>İşletmenizi Google platformlarÄ±nda daha görünür kÄ±lmak ve dijital stratejinizi güçlendirmek için sunduğumuz kapsamlÄ± hizmetlerimizle, hedef kitlenize daha etkili bir şekilde ulaşmanÄ±za yardÄ±mcÄ± oluyoruz. </p>
                                 </div>
                             </div>
                             <div className="img-tab7"></div>
@@ -152,14 +152,14 @@ const Section3 = () => {
                     <input type="radio" name="tabs-v" id="tab8-v" />
                     <label htmlFor="tab8-v">
                         <img src="https://ik.imagekit.io/lgf1wyqnvg/iconsed-verivizyon/icons8-company-64.png?updatedAt=1716504441232" />
-                        <p>Marka YÃ¶netimi</p>
+                        <p>Marka Yönetimi</p>
                     </label>
                     <div className="tab-content">
                         <div className="reverse-tab">
                             <div className="txt-tab">
                                 <div>
-                                    <h3>Marka YÃ¶netimi</h3>
-                                    <p>MarkanÄ±zÄ±n gÃ¼Ã§lÃ¼ ve sÃ¼rdÃ¼rÃ¼lebilir bir kimlik kazanmasÄ± iÃ§in kapsamlÄ± marka yÃ¶netimi Ã§Ã¶zÃ¼mleri sunuyoruz. Stratejik planlamadan pazarlamaya, marka kimliÄŸinizin her yÃ¶nÃ¼nÃ¼ yÃ¶neterek hedef kitlenizle gÃ¼Ã§lÃ¼ bir baÄŸ kurmanÄ±zÄ± saÄŸlÄ±yoruz.</p>
+                                    <h3>Marka Yönetimi</h3>
+                                    <p>MarkanÄ±zÄ±n güçlü ve sürdürülebilir bir kimlik kazanmasÄ± için kapsamlÄ± marka yönetimi çözümleri sunuyoruz. Stratejik planlamadan pazarlamaya, marka kimliğinizin her yönünü yöneterek hedef kitlenizle güçlü bir bağ kurmanÄ±zÄ± sağlÄ±yoruz.</p>
                                 </div>
                             </div>
                             <div className="img-tab8"></div>

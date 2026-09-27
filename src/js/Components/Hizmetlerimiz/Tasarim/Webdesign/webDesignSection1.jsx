@@ -12,11 +12,11 @@ const WebDesignSection1 = () => {
                     </div>
                     <div className="col-12 col-lg-7 order-md-2 order-1 px-md-4">
                         <div>
-                            <h2 className="mb-4">Web TasarÄ±m Hizmeti <span className="text-primary">VeriVizyon</span></h2>
-                            <p className="lead fs-16">VeriVizyon, web tasarÄ±m hizmetini projenize uyarlanmÄ±ÅŸ halde
-                                titizlikle sunar. Web tasarÄ±m, projenizin alanÄ±, hedef kitlesi ve proje sahibinin
-                                istekleri Ã¼zerine yapÄ±lmalÄ±dÄ±r. Bir web sitesi, iÅŸletmenizin dijital olarak dÃ¼nyaya
-                                aÃ§Ä±lmasÄ± iÃ§in Ã§ok Ã¶nemlidir. </p>
+                            <h2 className="mb-4">Web Tasarım Hizmeti <span className="text-primary">VeriVizyon</span></h2>
+                            <p className="lead fs-16">VeriVizyon, web tasarım hizmetini projenize uyarlanmış halde
+                                titizlikle sunar. Web tasarım, projenizin alanı, hedef kitlesi ve proje sahibinin
+                                istekleri üzerine yapılmalıdır. Bir web sitesi, işletmenizin dijital olarak dünyaya
+                                açılması için çok önemlidir. </p>
                         </div>
                         <div>
                             <div className="mb-1">
@@ -24,7 +24,7 @@ const WebDesignSection1 = () => {
                                     <div className="me-3"><span className="list-dot"
                                                                 style={{backgroundColor: '#285daa'}}> </span>
                                     </div>
-                                    <p className="mb-0 fs-14">Ä°htiyaÃ§larÄ±nÄ±za Ã¶zel kiÅŸiselleÅŸtirilmiÅŸ web tasarÄ±m
+                                    <p className="mb-0 fs-14">İhtiyaçlarınıza özel kişiselleştirilmiş web tasarım
                                         projeleri</p>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ const WebDesignSection1 = () => {
                                     <div className="me-3"><span className="list-dot"
                                                                 style={{backgroundColor: 'black'}}> </span>
                                     </div>
-                                    <p className="mb-0 fs-14">GÃ¼venli ve sÃ¼rdÃ¼rÃ¼lebilir web tasarÄ±m hizmeti</p>
+                                    <p className="mb-0 fs-14">Güvenli ve sürdürülebilir web tasarım hizmeti</p>
                                 </div>
                             </div>
                             <div className="mb-1">
@@ -41,8 +41,8 @@ const WebDesignSection1 = () => {
                                     <div className="me-3"><span className="list-dot"
                                                                 style={{backgroundColor: '#285daa'}}> </span>
                                     </div>
-                                    <p className="mb-0 fs-14">Gereksiz kod yapÄ±sÄ±ndan arÄ±ndÄ±rÄ±lan kod yapÄ±sÄ± sayesinde
-                                        stabil ve hÄ±zlÄ± web tasarÄ±m projeleri</p>
+                                    <p className="mb-0 fs-14">Gereksiz kod yapısından arındırılan kod yapısı sayesinde
+                                        stabil ve hızlı web tasarım projeleri</p>
                                 </div>
                             </div>
                             <div className="mb-1">
@@ -51,8 +51,8 @@ const WebDesignSection1 = () => {
                                                                 style={{backgroundColor: '#285daa'}}>
     </span>
                                     </div>
-                                    <p className="mb-0 fs-14">Ä°ÅŸ sÃ¼reÃ§lerinizle uyumlu, Ã§alÄ±ÅŸma sisteminize entegre
-                                        yazÄ±lÄ±mlarla desteklenmiÅŸ web projeleri</p>
+                                    <p className="mb-0 fs-14">İş süreçlerinizle uyumlu, çalışma sisteminize entegre
+                                        yazılÄ±mlarla desteklenmiş web projeleri</p>
                                 </div>
                             </div>
                             <div className="mb-1">
@@ -61,8 +61,8 @@ const WebDesignSection1 = () => {
                                                                 style={{backgroundColor: '#000000'}}>
     </span>
                                     </div>
-                                    <p className="mb-0 fs-14">GÃ¼venlik iÃ§in Web Sitenizin SSL sertifikasÄ± Ã¼cretsiz
-                                        saÄŸlanmaktadÄ±r</p>
+                                    <p className="mb-0 fs-14">Güvenlik için Web Sitenizin SSL sertifikasÄ± ücretsiz
+                                        sağlanmaktadÄ±r</p>
                                 </div>
                             </div>
                             <Buttonsection/>

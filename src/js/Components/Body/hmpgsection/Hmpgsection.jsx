@@ -40,14 +40,14 @@ const Hmpgsection = () => {
                 <div className="row align-items-center">
                     <div className="col-12 col-lg-7 col-xl-6 py-md-0 py-4">
                         <h1 className="mb-3 fs-40 fs-sm-34 text-md-left text-center "><span
-                            className="text-primary ">VeriVizyon</span> ile AklÄ±nÄ±zdaki Projeyi Hayata GeÃ§irin</h1><br/>
+                            className="text-primary ">VeriVizyon</span> ile Aklınızdaki Projeyi Hayata Geçirin</h1><br/>
 
-                        <p className="lead  mb-4 " style={{fontSize:18}} >Verivizyon, dijital dÃ¼nyada etkileyici bir varlÄ±k oluÅŸturmak iÃ§in tasarlanmÄ±ÅŸ tam kapsamlÄ± bir dijital pazarlama ajansÄ±dÄ±r.</p>
-                        <p className="lead  mb-4 " style={{fontSize:18}} >Web geliÅŸtirme, grafik tasarÄ±m, SEO ve Google Ads gibi alanlarda uzmanlaÅŸmÄ±ÅŸ bir ekip tarafÄ±ndan yÃ¶netilen Verivizyon, iÅŸletmenizin Ã§evrimiÃ§i varlÄ±ÄŸÄ±nÄ± gÃ¼Ã§lendirmek ve hedef kitlenize ulaÅŸmak iÃ§in yenilikÃ§i Ã§Ã¶zÃ¼mler sunar.</p>
+                        <p className="lead  mb-4 " style={{fontSize:18}} >Verivizyon, dijital dünyada etkileyici bir varlık oluşturmak için tasarlanmış tam kapsamlı bir dijital pazarlama ajansıdır.</p>
+                        <p className="lead  mb-4 " style={{fontSize:18}} >Web geliştirme, grafik tasarım, SEO ve Google Ads gibi alanlarda uzmanlaşmış bir ekip tarafından yönetilen Verivizyon, işletmenizin çevrimiçi varlığını güçlendirmek ve hedef kitlenize ulaşmak için yenilikçi çözümler sunar.</p>
 
 
                         <Link to="/referanslarimiz" element={<Referation/>}
-                           className="btn btn-outline-primary mobile-w-100 mb-md-0 mb-2">ReferanslarÄ±mÄ±z</Link>
+                           className="btn btn-outline-primary mobile-w-100 mb-md-0 mb-2">Referanslarımız</Link>
 
                        <Link to="/teklif-al" element={<Teklifalpage/>}>
                         <button className="btn btn-dark text-start mobile-w-100 basvuruYapBtn ml-md-2"

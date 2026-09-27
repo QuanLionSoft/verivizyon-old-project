@@ -25,20 +25,20 @@ const Contactsection2 = () => {
                     <div className="col-12 col-lg-6">
                         <div>
                             <div>
-                                <h2><span className="font-w-4 d-block">ArayÄ±ÅŸta olduÄŸunuz</span> hizmet veya destek iÃ§in
+                                <h2><span className="font-w-4 d-block">ArayıÅŸta olduğunuz</span> hizmet veya destek için
                                 </h2>
-                                <p className="lead">Bizimle Ä°letiÅŸime GeÃ§in.</p>
+                                <p className="lead">Bizimle İletiÅŸime Geçin.</p>
                             </div>
                             <form  ref={form} id="contact-form" className="row" onSubmit={sendEmail} method="POST">
                                 <div className="messages w-100 p-2"></div>
                                 <div className="form-group col-md-6">
                                     <input id="form_name" type="text" name="User_name" className="form-control"
-                                           placeholder="Ad Soyad" required="" data-error="AdÄ±nÄ±zÄ± DoÄŸru Giriniz"/>
+                                           placeholder="Ad Soyad" required="" data-error="Adınızı Doğru Giriniz"/>
                                         <div className="help-block with-errors"></div>
                                 </div>
                                 <div className="form-group col-md-6">
                                     <input id="form_email" type="email" name="user_email" className="form-control"
-                                           placeholder="E-Mail" required="" data-error="Bu E-Mail Adresi KullanÄ±lÄ±yor."/>
+                                           placeholder="E-Mail" required="" data-error="Bu E-Mail Adresi Kullanılıyor."/>
                                         <div className="help-block with-errors"></div>
                                 </div>
                                 <div className="form-group col-md-6">
@@ -53,12 +53,12 @@ const Contactsection2 = () => {
                                 </div>
                                 <div className="form-group col-md-12">
                                     <textarea id="form_message" name="message" className="form-control h-auto"
-                                              placeholder="MesajÄ±nÄ±z" rows="4" required=""
-                                              data-error="MesajÄ±nÄ±zÄ± Giriniz"></textarea>
+                                              placeholder="Mesajınız" rows="4" required=""
+                                              data-error="Mesajınızı Giriniz"></textarea>
                                     <div className="help-block with-errors"></div>
                                 </div>
                                 <div className="col mt-4">
-                                    <button type="submit" value="Send" className="btn btn-primary">Formu GÃ¶nder</button>
+                                    <button type="submit" value="Send" className="btn btn-primary">Formu Gönder</button>
                                 </div>
                             </form>
                         </div>

@@ -11,7 +11,7 @@ const Pophiz = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="text-center fs-sm-28">PopÃ¼ler Hizmetlerimiz</h2>
+                        <h2 className="text-center fs-sm-28">Popüler Hizmetlerimiz</h2>
                     </div>
                 </div>
             </div>
@@ -24,11 +24,11 @@ const Pophiz = () => {
                                     <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/web-tasarim.svg?updatedAt=1714930062437" className="img-fluid" alt=""/>
                                 </div>
                                 <div className="card-title">
-                                    <h3>Web TasarÄ±m Hizmeti</h3>
+                                    <h3>Web Tasarım Hizmeti</h3>
                                 </div>
                                 <div className="card-body">
-                                    <p>Web TasarÄ±m Hizmeti ile ihtiyacÄ±nÄ±z olan tasarÄ±m desteÄŸine <span
-                                        className="text-primary">VeriVizyon</span> iÅŸ ortaklÄ±ÄŸÄ± ile sahip olabilirsiniz.</p>
+                                    <p>Web Tasarım Hizmeti ile ihtiyacınız olan tasarım desteğine <span
+                                        className="text-primary">VeriVizyon</span> iÅŸ ortaklığı ile sahip olabilirsiniz.</p>
                                 </div>
                                 <div className="card-footer" style={{}}>
                                     <span>Detaylar<i className="las la-chevron-right ml-2"></i></span>
@@ -43,11 +43,11 @@ const Pophiz = () => {
                                     <img src="https://ik.imagekit.io/lgf1wyqnvg/veri-vizyon-hizmetlerimiz-image/e-ticaret.svg?updatedAt=1714931724542" className="img-fluid" alt=""/>
                                 </div>
                                 <div className="card-title">
-                                    <h3>E-Ticaret YazÄ±lÄ±mÄ±</h3>
+                                    <h3>E-Ticaret Yazılımı</h3>
                                 </div>
                                 <div className="card-body">
-                                    <p>E-Ticaret YazÄ±lÄ±mÄ± ile ihtiyacÄ±nÄ±z olan yazÄ±lÄ±m desteÄŸine <span
-                                        className="text-primary">VeriVizyon</span> iÅŸ ortaklÄ±ÄŸÄ± ile sahip olabilirsiniz.</p>
+                                    <p>E-Ticaret Yazılımı ile ihtiyacınız olan yazılım desteğine <span
+                                        className="text-primary">VeriVizyon</span> iÅŸ ortaklÄ±ğÄ± ile sahip olabilirsiniz.</p>
                                 </div>
                                 <div className="card-footer">
                                     <span>Detaylar<i className="las la-chevron-right ml-2"></i></span>
@@ -65,8 +65,8 @@ const Pophiz = () => {
                                     <h3>SEO Hizmeti</h3>
                                 </div>
                                 <div className="card-body">
-                                    <p>SEO Hizmeti ile ihtiyacÄ±nÄ±z olan reklam desteÄŸine <span
-                                        className="text-primary">VeriVizyon</span> iÅŸ ortaklÄ±ÄŸÄ± ile sahip olabilirsiniz.</p>
+                                    <p>SEO Hizmeti ile ihtiyacÄ±nÄ±z olan reklam desteğine <span
+                                        className="text-primary">VeriVizyon</span> iÅŸ ortaklÄ±ğÄ± ile sahip olabilirsiniz.</p>
                                 </div>
                                 <div className="card-footer">
                                     <span>Detaylar<i className="las la-chevron-right ml-2"></i></span>
